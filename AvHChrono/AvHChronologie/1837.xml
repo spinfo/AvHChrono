@@ -1,0 +1,856 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="chronologie avhr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt-Chronologie - 1837</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI xml:id="gnd118554700_e18a339f-df68-410a-bd15-4b57277b541f">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date notBefore="1837-01-21" notAfter="1837-01-31">Ende Januar 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. leidet an Grippe.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_91a28a75-0ed3-42f5-a0ed-958268ecd56f">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-02-09">09. Februar 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. liest in der Berliner Akademie über "die Vulkane des Hochlandes von <placeName key="c602920d-7ece-4ffa-9ef7-a7e031c7246b">Quito</placeName>".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_7db09be9-b573-403e-af45-636ce665bcac">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-02-13">13. Februar 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Leopold Zunz besucht H.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_641847a0-efa6-4d6d-a6fd-c3b44ca91bcf">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-02-25">25. Februar 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Prinzessin <persName key="a7245a0b-fe97-4178-bc84-a6dc5c8884ea">Augusta</persName> von Preußen (1811-1890) zeigt H., Adelheid und August von Hedemann sowie Gabriele von Bülow das neue Palais ihres Gemahls, des Prinzen Wilhelm (später König von Preußen und deutscher Kaiser, 1797-1888). Das Palais, später als "Altes Palais" bezeichnet, befand sich am Opernplatz Unter den <placeName key="m5055677-3f34-4fd7-929f-9708f6b8254f">Linden</placeName> in <placeName key="prov_ycp_cpr_js">Berlin</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_51d5b585-11c1-4bb0-b0d0-73793241ceef">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-02-28">28. Februar 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. unterhält sich im Salon der Fürstin Lucie von <persName key="f7952b2e-6677-41cc-bc7d-c66c952f6f49">Pückler-Muskau</persName> (1776-1854) in Anwesenheit von Rebecca <persName key="qee4138a-fe68-4c59-8072-975ea39e5de6">Dirichlet</persName> (1811-1858) mit <persName key="r1b7da19-4e16-44a7-aaf5-5a912378e0e8">Eduard Gans</persName> (1798-1839).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_8dd91a13-173f-4700-8130-70f08b2ece8a">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-04-10">10. April 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Im Beisein H.s wird die von <persName key="k9939ffd-d066-440e-ab2c-21e6c45567da">Christian Friedrich Tieck</persName> (nach Bertel <persName key="l1dfef01-6fe9-40bd-ac6e-5b13b656e313">Thorvaldsen</persName>) angefertigte Büste seines Bruders Wilhelm in der Vorhalle des Alten Museums aufgestellt. Anwesend: Hedemann, Brühl, Tieck u.a. Künstler.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_da56fa1d-f471-4051-b1c4-6480536e94a5">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-05-03">03. Mai 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. hält in <placeName key="prov_ycp_cpr_js">Berlin</placeName> bei der Fürstin Lucie von <persName key="f7952b2e-6677-41cc-bc7d-c66c952f6f49">Pückler-Muskau</persName> eine Privatvorlesung.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_498f35c2-b1a8-4ef4-8251-47cccbf99eb3">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-05-30">30. Mai 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. auf der Berliner Sternwarte zur Beobachtung des Saturn. <persName key="fee606ec-f73c-4bf7-a33a-b0f85da7e5d1">Argelander</persName> betrachtet auf der Durchreise nach <placeName key="abfabb3c-18a2-4351-9a03-0ce3d75f68fe">Bonn</placeName> ebenfalls den Saturn.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_342098a7-aa44-43ff-b59a-30bff5f019b2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date notBefore="1837-06-11" notAfter="1837-06-20">Mitte Juni 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. in <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName>. <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName> hält sich vom 17. bis zum 20.6. in <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName> auf.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_ea706cbe-e048-4d35-aa47-fa93e1dd270a">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-07-03">03. Juli 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist von <placeName key="prov_ycp_cpr_js">Berlin</placeName> nach <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName> ab. Er ist dort acht Tage mit <persName key="af809e08-6311-4215-9e55-df696fe1a66b">Karl Friedrich Schinkel</persName> zusammen. Vermutlich besichtigt er auf der Hin- oder Rückreise die im Bau befindliche Eisenbahnstrecke <placeName key="kdd62529-d48a-4552-a983-043f617dcc6f">Leipzig</placeName> - <placeName key="cc540b11-fe8d-402c-a256-ad4f4e1ecba0">Dresden</placeName>. Am 1.8. ist H. wieder in Berlin.Reisedaten <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName>: 6.7. Abreise nach <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName>, 7.7. Ankunft in <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName>, 28.7. Abreise von <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName>, 29.7. in <placeName key="prov_ivc_gzp_st">Potsdam</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_1d131f97-587a-431f-b929-dfda719f01f8">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-08-04">04. August 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+<persName key="prov_skl_rbf_f5">Meyerbeer</persName> besucht H.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_8bb87943-5675-416b-8d58-1b7575afffe4">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-08-17">17. August 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. fährt von <placeName key="prov_ycp_cpr_js">Berlin</placeName> über <placeName key="q6c5ffd5-0451-490e-a1b3-55d51e9e81c2">Sanssouci</placeName> nach <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName>, um dort bis zum 21.8. zu bleiben. <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName> fährt am 18.7. nach <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName>, am 21.8. zurück nach <placeName key="prov_ivc_gzp_st">Potsdam</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_62a5cece-b5f4-4968-8c85-60009e0562e1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date notBefore="1837-09-11" notAfter="1837-09-20">Mitte September 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist über Mägdesprung, Alexisbad und Stolberg nach <placeName key="prov_ods_qzh_ss">Göttingen</placeName>, um an den Feierlichkeiten anläßlich des 100jährigen Bestehens der Universität teilzunehmen. Er richtet eine Ansprache an die Göttinger Studenten (15.9.), besucht mehrfach C. F. <persName key="t9432ca7-7d25-4673-ad5f-6621fe238a23">Gauß</persName> (B: 19.9.), nimmt am 20.9. an der Gründungsversammlung eines deutschen Philologen-Vereins im Hause des klassischen Philologen Carl Ferdinand Ranke teil und reist am 23.9. nach <placeName key="efa406eb-68cd-4291-aab0-c4b2bad55898">Hannover</placeName>, wo er zwei Tage die Astronomin <persName key="k0a74945-5f38-493d-91d8-1ed3ca42d0e7">Caroline Herschel</persName> (1750-1848) besucht, dann nach <placeName key="prov_ycp_cpr_js">Berlin</placeName> zurück, wo er in der Nacht vom 27. zum 28.9. eintrifft.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_4647c7dc-11c0-485b-8e3b-bbebcd5671dc">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-09-30">30. September 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Im Einvernehmen mit C. F. <persName key="t9432ca7-7d25-4673-ad5f-6621fe238a23">Gauß</persName> fordert H. öffentlich alle Physiker und Astronomen auf, durch Beobachtungen zwischen dem 12. und 15.11. zu ergründen, ob der Sternschnuppenfall mit den Erscheinungen des Erdmagnetismus "in bemerkbarem Zusammenhange stehe".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_5f4ff4fe-0f97-44ac-bd82-82003a1b4d3c">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-10-16">16. Oktober 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. kehrt aus <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName>, wo er einige Tage im Gefolge <persName key="prov_ubn_bff_f5">Friedrich Wilhelms III.</persName> geweilt hatte, nach <placeName key="prov_ycp_cpr_js">Berlin</placeName> zurück. Der König fuihr am 15.10. von <placeName key="prov_ivc_gzp_st">Potsdam</placeName> nach <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName>, kehrt am selben Tag nach <placeName key="prov_ivc_gzp_st">Potsdam</placeName> zurück, am16. nach <placeName key="h64dce0b-e45b-4929-b236-26834ac875bc">Charlottenburg</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_a5aaa778-6973-4845-aa11-f7b6dd0edeaf">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-11-02">02. November 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Die Berliner Akademie der Wissenschaften nimmt einstimmig einen Vorschlag H.s an, Hauptfächer festzulegen, die durch Mitglieder vertreten sein müssen, und für alle übrigen Stellen freie Wahl zuzulassen.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_fa2cc1fe-bc79-4392-b879-c52abb9208a0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-11-13">13. November 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. nimmt in der physikalisch-mathematischen Klasse der Berliner Akademie Einfluß auf die seinem Antrag gemäß vom Plenum beschlossene Einrichtung von festen, bestimmten Wissenschaftsdisziplinen vorbehaltenen Stellen.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_5cf14040-536d-48c3-a8b1-1e62ccb79c6e">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-11-24">24. November 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. in <placeName key="prov_ycp_cpr_js">Berlin</placeName>; wird durch die "morgende Ankunft des Kronprinzen (Wilhelm)" nach <placeName key="prov_ivc_gzp_st">Potsdam</placeName> gerufen. Der König geht am 25.11. nachmittags nach <placeName key="prov_ivc_gzp_st">Potsdam</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_dfd2f2cd-aca4-4ef1-9f16-8811995c9059">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-12-01">01. Dezember 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. wegen der Ankunft des Astronomen <persName key="d19d6fd8-d10d-4cc1-8b14-bbdc4abb7451">Emile Plantamour</persName> (1815-1882) und durch "das Hereinkommen der ganzen Familie von <placeName key="v3a3310a-a402-435e-8476-e58f7f8404f9">Tegel</placeName> überbeschäftigt".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_a3ac4ef2-f570-4c72-8ca6-695a7ad94a3a">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-12-02">02. Dezember 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. will an diesem Tage zusammen mit <persName key="w3f692b3-d704-4602-b751-1f7fb5bb5137">Gustav Rose</persName> und Ignaz von Olfers die "Deppische Sammlung" besichtigen.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_42e378bd-c2c0-49c8-83f6-163c6356abe5">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-12-07">07. Dezember 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Der nordamerikanische Physiker <persName key="g6ec8eb4-15bb-4f50-974a-a9705cb08bd9">Alexander Dallas Bache</persName> (Urenkel Benjamin Franklins) ist in <placeName key="prov_ycp_cpr_js">Berlin</placeName>, um preußische Unterrichtseinrichtungen zu studieren. Geomagnetische Messungen mit H.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_5c03a0fd-2d8b-496a-a627-a71286cd2d56">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1837-12-20">20. Dezember 1837</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Der Architekt Wilhelm Bessel ( Sohn v. F. W. Bessel) frühstückt bei H.
+</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

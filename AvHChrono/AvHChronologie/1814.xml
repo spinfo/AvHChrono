@@ -1,0 +1,248 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="chronologie avhr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt-Chronologie - 1814</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI xml:id="gnd118554700_efb166a0-ff25-4066-bacb-620b0ac5c2a2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1814-04-01">01. April 1814</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. sieht nach dem Einzug der verbündeten Truppen in <placeName key="prov_kdm_kkr_ls">Paris</placeName> seinen Bruder Wilhelm wieder. Er verwendet sich mit Erfolg bei der preußischen Kommandantur für den Schutz des "Muséum d'Histoire Naturelle".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_9f2d7a2b-2a4a-4f95-bc7f-053d8504f4e6">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1814-04-14">14. April 1814</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. und sein Bruder werden dem König Louis XVIII. von <placeName key="prov_ajq_cnf_ms">Frankreich</placeName> vorgestellt. H. muss dem König <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName> von <placeName key="e07777bd-59f5-49e7-9eb3-8d66a2b8e874">Preußen</placeName> als Begleiter und Vorleser dienen; er steht "in der höchsten Gnade".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_f289e56f-afcb-4181-8d5f-53adcd857470">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1814-06">Juni 1814</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. und sein Bruder Wilhelm weilen mit König <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName> in <placeName key="prov_wxf_bxc_qs">London</placeName> (B: ab 21.6.; Rückkehr nach <placeName key="prov_kdm_kkr_ls">Paris</placeName> etwa 28.6.). Wilhelm von Humboldt reist von Dover aus allein in die <placeName key="prov_jlg_1bs_ts">Schweiz</placeName> weiter, während H. mit dem König nach <placeName key="prov_kdm_kkr_ls">Paris</placeName> zurückkehrt.Reisedaten <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName>: Abreise nach <placeName key="prov_wxf_bxc_qs">London</placeName> 4.6., Ankunft 7.6., Abreise Dover 26.6., Ankunft <placeName key="prov_kdm_kkr_ls">Paris</placeName> 28.6.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_eaa29abd-5aea-44b6-adac-cab0062e878f">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1814-07-06">06. Juli 1814</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. erhält eine Gratifikation von 3.000 Talern für die dem König geleisteten Dienste.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_a97eec86-f06b-4928-a359-37e6e7dfcc5c">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1814-10-03">03. Oktober 1814</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. liest im "Institut" über das "résultat des observations physiques et géologiques faites dans les plaines de Jorullo, en Mexique".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_2195e835-a9e4-4afc-850b-ede504fe2bda">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1814-10-10">10. Oktober 1814</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. liest im "Institut": "considérations générales sur la végétation des îles Canaries" (Schluß 17.10.).
+</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

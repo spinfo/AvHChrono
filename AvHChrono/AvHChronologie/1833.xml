@@ -1,0 +1,362 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="chronologie avhr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt-Chronologie - 1833</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI xml:id="gnd118554700_ff7f7d23-eb5d-4170-a93d-a8718181ad5e">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833-01-10">10. Januar 1833</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. muss sich nach <placeName key="v3a3310a-a402-435e-8476-e58f7f8404f9">Tegel</placeName> begeben, um seinen Bruder Wilhelm wegen des Brandes der Tegeler Mühle zu trösten (Brief an S. H. Spiker). 1833-04 H. befasst sich mit der Vorbereitung der Chronometer-Expedition (Ostseeküste) des russischen Geodäten General Fedor Fedorovic Schubert (1789-1865). H. leidet an einer Grippe (mit Rückfall).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_2d2a72ad-1f20-4e44-8674-088125be8001">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833-05-10">10. Mai 1833</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+In Hs. Wohnung wird Wilhelm Seifert (1833-1842), der Sohn von Emilie und Johann Seifert, durch den Hofprediger Friedrich Strauß (1786-1863) getauft (Beleg: H. an Ehrenberg, 10.5.1833)
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_8ae6ecc0-b30f-40d7-8a92-f98cd114c968">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833-06-03">03. Juni 1833</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. liest in der physikalisch-mathematischen Klasse der Berliner Akademie über "Strömungen der <placeName key="prov_pls_rqw_ls">Südsee</placeName>".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_8845bb05-a22e-48c9-9b75-56a8071cecf9">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833-06-27">27. Juni 1833</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. liest in der Berliner Akademie über "Meeresströmungen im allgemeinen und besonders über eine kalte Meeresströmung an der Westküste von <placeName key="prov_dqk_2cj_qs">Südamerika</placeName>".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_d2b99556-8ab4-461a-bbff-b00de859a780">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833-07">Juli 1833</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+5 Tage in <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName> (B: 14.7.). Der König fährt am 13.7. nach <placeName key="l84e9055-260f-4d3e-a420-d33b674b216a">Paretz</placeName> und am 16.7. zurück nach <placeName key="prov_ivc_gzp_st">Potsdam</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_95e20821-8c6e-47d8-8faa-a61a9771f2ff">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833-07-24">24. Juli 1833</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist von <placeName key="prov_ycp_cpr_js">Berlin</placeName> nach <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName> ab, Ankunft 26.7. Anfang August in Begleitung <persName key="prov_ubn_bff_f5">Friedrich Wilhelms III.</persName> Exkursion in die Sächsische Schweiz; Rückreise nach <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName> vom Großen Winterberg über Schandau und Peterswalde; am 3. und 4.8. Zusammentreffen mit Kaiser Nikolaus I. von <placeName key="a246f5f3-253b-49d0-8d86-1d7bd6d4fc9c">Russland</placeName> in Lobositz. H. verfasst in <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName> am 20.8. ein Gutachten über die "Herantreibung des Meissner Stollens in die Freiberger Erzreviere". Abreise von <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName> etwa 24.8. Auf der Rückreise besucht er in <placeName key="e4e400a9-ea00-444b-aa23-26c496c3afd0">Dessau</placeName> das Schloss Luisium (B: 29.8.) und den Apotheker, Botaniker und Astronomen <persName key="fcbcbca6-1fdd-4aa5-a729-019ab5468292">Samuel Heinrich Schwabe</persName> (B: 31.Aug.). Wahrscheinlich hat H. bei dieser Gelegenheit auch Wörlitz besucht. Am 2.9. ist er wieder in Berlin.Reisedaten <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName>: 24.7. Abreise, 15.7., Ankunft in <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName>. Am 2. und 3.8. der übliche Geburtstagsausflug nach Schandau. 3.8. zurück nach <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName>, Diner mit 240 Kurgästen. Treffen mit Kaiser <persName key="z6b2090f-e73b-405c-9e98-6233b1bfa059">Franz I.</persName> von <placeName key="ra15520d-75d1-4667-930d-8e53d53bd297">Österreich</placeName>. 14.8. Fahrt nach Theresienstadt, das Diplomatische Corps folgt den Herrschern. 24.8. Abreise von <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName> über Herzberg, 25.8. Ankunft in <placeName key="prov_ivc_gzp_st">Potsdam</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_3000634d-7cb3-4806-9b25-46e7bd1795c7">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833 09 14?">"TODO Datum parsen!"</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Johannes Müller besucht H.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_0b3f28ce-5935-41ac-8bdd-5e4cc2eac6ca">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833-09-15">15. September 1833</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist von <placeName key="prov_ycp_cpr_js">Berlin</placeName> in Begleitung von Karl Sigismund Kunth nach <placeName key="bdbf3aaa-987e-4e62-ad3e-3e2cdc372a8d">Breslau</placeName> ab, um an der XI. Versammlung der "Gesellschaft deutscher Naturforscher und Ärzte" teilzunehmen. Er trifft am 17.9. in <placeName key="bdbf3aaa-987e-4e62-ad3e-3e2cdc372a8d">Breslau</placeName> ein und hält mehrere Vorträge: Am 18.9. über den Einfluß, den eine Richtung der modernen Literatur, die Landschaftsmalerei und der Anbau exotischer Gewächse auf die Belebung des Naturstudiums ausgeübt haben, am 19.9. über ein Farbenschema L. von Buchs für geognostische Karten und über Pasigraphie im allgemeinen, am 21.9. über die Bildung der Steinkohle, am 23.9. über Meeresströmungen im allgemeinen, sowie über einen Strom kalten Wassers in der <placeName key="prov_pls_rqw_ls">Südsee</placeName>, über einen heißen Strom im Golf von <placeName key="c09ac531-3f0a-4e8a-aa72-4be05e8ec733">Florida</placeName> und den Einfluß desselben auf die benachbarten Länder, am 23.9. über das Vorkommen von Robben im Kaspi-, Aral-, Baikal- und Balkaschsee, ferner über Delphine in den überschwemmten Uferwäldern des <placeName key="prov_jsp_gqd_qs">Orinoco</placeName> und über Fische im Kaspi-See. Außerdem ergreift er in mehreren Sitzungen das Wort zu Diskussionsbemerkungen. Am 27.9. ist er wieder in <placeName key="prov_ycp_cpr_js">Berlin</placeName>. H. wird Ehrenmitglied der Královská Ceská Spolecnost Náuk v Praze.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_f0db1e8e-cbce-4c5b-b495-27da4c782f7b">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1833 Winter">"TODO Datum parsen!"</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Im Wintersemester 1833/34 hört H. die Universitätsvorlesungen des klassischen Philologen <persName key="y9555972-0b17-4c99-b895-f864717db2fb">August Böckh</persName> über griechische Altertümer und nimmt an einem Kolleg des Chemikers <persName key="prov_n2t_ybf_f5">Eilhard Mitscherlich</persName> sowie an dessen Experimenten mit einem galvanischen Apparat teil. In den folgenden zwei Jahren hört er <persName key="y9555972-0b17-4c99-b895-f864717db2fb">August Böckhs</persName> Vorlesungen über griechische Literaturgeschichte.
+</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

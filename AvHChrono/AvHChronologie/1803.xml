@@ -1,0 +1,552 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="chronologie avhr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt-Chronologie - 1803</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI xml:id="gnd118554700_c2898175-7faf-48e4-9a30-d5d0fe8e58cc">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-01-04">04. Januar 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. geht in <placeName key="prov_eq2_ddr_jt">Guayaquil</placeName> an Land. Er bleibt dort bis zum 17.2. Vom 31.1.-7.2. Fahrt auf dem Río de <placeName key="prov_eq2_ddr_jt">Guayaquil</placeName> (Río Babahoyo) in das Landesinnere, um den Ausbruch des <placeName key="a426127e-8a9f-4187-9f3d-d540393a8d42">Cotopaxi</placeName> (seit 4.1.) zu beobachten; Insel Los Cales (31.1.), Samborondón (l.2.), Garzal (4.-6.2.), Las Bodegas de <placeName key="fa071dbd-676e-4245-afce-96e99e96149b">Babahoyo</placeName> (6.2.). Am 7.2. wieder in <placeName key="prov_eq2_ddr_jt">Guayaquil</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_96b6b239-4f25-43b6-a50f-ae7cfa859b29">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-02-17">17. Februar 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Erneute Einschiffung an Bord der "Orue" oder "Atlante" zur Fortsetzung der Reise nach <placeName key="prov_iqy_pjd_qs">Acapulco</placeName> (Mexico). H. überquert zum zweiten und letzten Mal den <placeName key="prov_tn2_4qd_qs">Äquator</placeName> (26./27.2.).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_babd951f-ddad-4f56-9a12-a3424aa9ca05">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-03-16">16. März 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. beobachtet einen Sternschnuppenfall in der <placeName key="prov_pls_rqw_ls">Südsee</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_5db64a6c-a076-4804-ac36-56cbc8f0d5b4">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-03-22">22. März 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Landung in <placeName key="prov_iqy_pjd_qs">Acapulco</placeName>. H. reist am 29.3. auf dem Landwege nach Mexico-Stadt weiter. Reiseroute: La Moxonera (l.4.), <placeName key="prov_jcy_y4p_lt">Chilpancingo</placeName> (2.4.), <placeName key="c55b15ad-d129-41e8-a0db-f6b153b3a2d9">Zumpango</placeName>, Sopilote (3.4.), Mezcala, Estola (4.4.), Tepecoacuilco (6.4.), <placeName key="f7ff4f0d-c8d6-4f96-a210-9641d91e12d8">Taxco</placeName>, Tehuilotépec (6./8.4.), Puente de Ixtla (9./10.4.).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_b1204a06-1a7a-48f5-886a-bf989177c7d5">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-04-12">12. April 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. trifft in Mexico-Stadt ein. Von Exkursionen abgesehen, bleibt er dort bis zum 20.1.1804.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_d8ca4e4c-c9a1-4289-9491-90a05a121276">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-05-13">13. Mai 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. tritt eine bis zum 26.5. dauernde Exkursion zu den Bergwerken von <placeName key="xd9d9662-67d3-47b2-9773-3fea1dd36ffe">Pachuca</placeName>, <placeName key="e4c06884-5235-4469-b485-eb74b2fdc251">Real del Monte</placeName> und Morán an. Reiseroute: Carpio (13./14.5.), <placeName key="nb8549bb-935d-44f3-ae7a-d4176b50ec34">San José</placeName> Gasave, <placeName key="xd9d9662-67d3-47b2-9773-3fea1dd36ffe">Pachuca</placeName> (15.5.), Morán (15.-18.5.), Gruben des Grafen von Regla (19.-21.5.; am 20.5. Aufstieg auf den Cerro Las Navajas), Atotonilco (21./22.5.), <placeName key="g390c35a-cbf2-458f-b2bf-261de16cf9d4">Actopan</placeName> (23.-25.5.); Rückkehr nach Mexico-Stadt über Tisayuca und Carpio (25./26.5.).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_33b59e92-5614-4398-82b6-793bd7abbb71">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-05-28">28. Mai 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. in <placeName key="v7fb7d76-808a-4e7f-9891-3990b685c30a">San Agustín</placeName> de las Cuevas am See von <placeName key="v928a875-a2f6-4e0c-90b8-40a69730fb31">Xochimilco</placeName> (B: bis 2.6.).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_24b4232d-a837-4832-ba6d-bc52e8f6f83f">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-06-08">08. Juni 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Von diesem Tage an beschäftigt sich H. mit der konfiszierten Sammlung mexikanischer Bilderhandschriften des Mailänders Lorenzo Boturini im Archiv des vizeköniglichen Sekretariats.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_1a24a9ea-bed5-4cc2-87ff-4c05687faedc">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-08-01">01. August 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Abreise aus Mexico-Stadt; Exkursion bis Ende September, zunächst nach <placeName key="a78fed01-f09e-4684-9a35-e7e9d9920049">Huehuetoca</placeName>, erste Besichtigung des Real Desagüe (Entwässerungsanlage) bei Mexico-Stadt (1./2.8.).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_84928cbe-48b7-4766-b61d-4ea19ca9973b">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-08-02">02. August 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Nach Arroyo Sarco, <placeName key="d6c1606d-88ef-4d22-92a1-03c67fe127c1">Querétaro</placeName> (bis 5.8.)
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_9b314683-68cd-4a07-b767-1385e3db0328">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-08-07">07. August 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Nach <placeName key="w4639a03-9fe6-406c-ab77-3cc49efba2c8">Salamanca</placeName> und zu den Bergwerken von <placeName key="yd0e8813-84df-4965-ba68-5adc8f6083b2">Guanajuato</placeName> (bis 10.9.; H. gibt ein sehr ausführliches Gutachten ab). Abschluß der bergbaulichen Untersuchungen am 6.9.; H. bezeichnet diese Zeit als eine der anstrengendsten seines Lebens.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_ab41db5b-1bf1-4fe7-a3ba-35a9c3fd4613">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803 09 7/8">"TODO Datum parsen!"</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Exkursion zu den heißen Quellen von <placeName key="nb8549bb-935d-44f3-ae7a-d4176b50ec34">San José</placeName> de Comanjillas. Weitere Reiseroute: Übergang über den Río Grande, <placeName key="o8c0091c-55a5-4c8e-bd58-eeeb3db66d65">Valle de Santiago</placeName> (11.9.), <placeName key="oc46e871-5945-43c3-8db0-f555d1348686">Valladolid</placeName> (14./15.9.), Besteigung des Jorullo (19.9.). Rückreise: <placeName key="dd897812-eed6-420a-9824-0c9936c0e1e5">Pátzcuaro</placeName> (21.9.), <placeName key="oc46e871-5945-43c3-8db0-f555d1348686">Valladolid</placeName> (23./24.9.), <placeName key="ia505eb4-a757-470e-ad5f-9e262bfb280b">Acámbaro</placeName>, Maravatío, <placeName key="jd341294-7674-44f8-b707-39427b330cdf">Ixtlahuaca</placeName>, Stadt und Vulkan <placeName key="ebf1d99f-86ee-48a8-a63d-38b45e2dbdb3">Toluca</placeName> (Vulkan <placeName key="ebf1d99f-86ee-48a8-a63d-38b45e2dbdb3">Toluca</placeName>: 28.- 29.9.).
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_1b8d6425-489b-4043-99cf-9651962de8b9">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-09-29">29. September 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+4 Uhr früh: Abreise von der Stadt <placeName key="ebf1d99f-86ee-48a8-a63d-38b45e2dbdb3">Toluca</placeName> nach Mexico-Stadt.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_7ad03eeb-f99c-4a78-9a05-ce675f2533ec">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1803-10-17">17. Oktober 1803</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. nimmt bis 21.10. an Prüfungen im Colegio de Minería teil, mit dessen Direktor und Gründer Fausto de Elhuyar (1755-1833) er näher bekannt wird. Er erneuert seine Bekanntschaft mit dem Bergingenieur Manuel Del Río (1764-1849), der in <placeName key="fd15a23c-f133-45dc-988b-602ee833f893">Freiberg</placeName> sein Kommilitone war. H. erhält eine an die Gründung des Tribunal de Minería erinnernde Medaille.
+</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

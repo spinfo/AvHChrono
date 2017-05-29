@@ -1,0 +1,666 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="chronologie avhr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt-Chronologie - 1822</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI xml:id="gnd118554700_18ab6888-e530-49a7-9b29-ad48df0c4509">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822">1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. macht in <placeName key="prov_kdm_kkr_ls">Paris</placeName> die Bekanntschaft des Mathematikers <persName key="d64ace0c-0b9b-4eed-8242-fe6ffaa67e17">Adolphe Quetelet</persName> (1796-1874), den er im "Institut" einführt und seinen Freunden vorstellt.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_7ad9b8de-6054-4312-bd62-6c7c054a236e">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-01-05">05. Januar 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. datiert einen Empfehlungsbrief für C. G. Jung an den Magistrat von <placeName key="k64249f1-dce7-43e3-91c3-62279c021f4c">Basel</placeName> aus <placeName key="prov_kdm_kkr_ls">Paris</placeName>, quai de l'Ecole 26.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_26b92c37-b322-4c58-9c91-1cc4507cb3fc">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-01-30">30. Januar 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. wird Mitglied der "American Academy of Arts and Sciences".
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_ddb56a79-5b6f-49ff-9216-7f06b76ebb9c">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-09-13">13. September 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist von <placeName key="prov_kdm_kkr_ls">Paris</placeName> ab, um sich in <placeName key="prov_wmb_lpw_ls">Italien</placeName> dem Gefolge <persName key="prov_ubn_bff_f5">Friedrich Wilhelms III.</persName> anzuschließen, der am Kongreß von <placeName key="prov_tny_rlg_5s">Verona</placeName> teilnimmt. Reiseroute: <placeName key="prov_t45_knv_kt">Genf</placeName> (H. macht dort die Bekanntschaft des Chemikers Jean-Baptiste-André Dumas) und Coppet (zwei Tage), Bex (1 Tag, Besuch der Bergwerke), durch das <placeName key="d9a408fc-711a-4bd5-b208-3025a1341f62">Wallis</placeName>, über den Simplon nach Domodossola und zum <placeName key="ydcafff9-620b-4686-9ed0-4d29772fd412">Lago Maggiore</placeName> (dort zwei Tage mit Besuch der Borromäischen Inseln und der Steinbrüche von Baveno und Candoglio), <placeName key="prov_qpj_1qw_ls">Mailand</placeName> (um den 21.9. eingetroffen, am 23.9. Abreise), <placeName key="prov_tny_rlg_5s">Verona</placeName> (ein Tag Aufenthalt mit Besichtigung der für <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName> vorgesehenen Unterkunft), <placeName key="prov_omm_5lg_5s">Vicenza</placeName>, <placeName key="prov_jpj_tlg_5s">Padua</placeName>, Battaglia, Abano (Besuch der Euganeen), Etschtal (Trient und Neumarkt), Fleimstal (Cavalese und Predazzo; 30.9.), Ala, Rovereto, <placeName key="prov_tny_rlg_5s">Verona</placeName> (3.10.); H. bleibt mit Leopold von Buch, der mit ihm in <placeName key="prov_tny_rlg_5s">Verona</placeName> zusammentrifft, fünf Tage in <placeName key="prov_tny_rlg_5s">Verona</placeName>. Fußtour mit von Buch in die Umgebung von <placeName key="prov_tny_rlg_5s">Verona</placeName> (Basalttäler von San Giovanni und Roncá, Monte Bocca). H. reist <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName> nach <placeName key="prov_qpj_1qw_ls">Mailand</placeName> entgegen.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_5ecd8c61-ba46-46f6-a8df-4b16bdc32ffc">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-10-09">09. Oktober 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. meldet sich bei dem in <placeName key="prov_qpj_1qw_ls">Mailand</placeName> eingetroffenen <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName>; H. bleibt bis 14.10. in <placeName key="prov_qpj_1qw_ls">Mailand</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_5132d584-46d1-4f7c-a837-964e9546e36e">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-10-14">14. Oktober 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist im Gefolge des Königs nach <placeName key="prov_tny_rlg_5s">Verona</placeName> zurück, wo er am folgenden Tage eintrifft.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_f5279d18-e247-4949-8fb4-f6251d896997">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-10-17">17. Oktober 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. erwägt den Gedanken, nach Mexiko überzusiedeln und dort eine Akademie der Wissenschaften für die lateinamerikanischen Länder zu gründen (B: H. an Wilhelm von Humboldt). Etwa zu dieser Zeit wird ihm klar, dass die asiatische Reise in ihrer bisherigen Konzeption (über <placeName key="prov_e12_ld1_nt">Indien</placeName> und <placeName key="prov_dzt_cpq_25">Tibet</placeName>) nicht zu verwirklichen ist.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_e3d6fa95-e241-420f-b8c9-8217b306f752">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-10-24">24. Oktober 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Der König trifft in <placeName key="prov_epz_qlg_5s">Venedig</placeName> ein; Abreise 28.10.; H. gehört zum Gefolge des Königs.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_316efbd3-9a48-416d-86fb-3ddfd2ab3af2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-10-28">28. Oktober 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. trifft im Gefolge des Königs wieder in <placeName key="prov_tny_rlg_5s">Verona</placeName> ein.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_e1eb505b-b264-4dab-83c4-fbcfa95adad7">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-11-05">05. November 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+An diesem Tag reist H. im Gefolge des Königs über <placeName key="j26375f5-d946-4f5e-9652-5d89f9c99071">Rom</placeName> (B: 19.11.) nach <placeName key="prov_mbt_lpw_ls">Neapel</placeName> ab.Reisedaten <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName>: Ankunft in <placeName key="j26375f5-d946-4f5e-9652-5d89f9c99071">Rom</placeName> 11.11., Abreise 19.11.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_6c71823e-3e38-4012-9c93-48d7b39a534c">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-11-21">21. November 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. trifft an diesem Tage in <placeName key="prov_mbt_lpw_ls">Neapel</placeName> ein, Abreise am 5.12. Der <placeName key="f1f9c74a-4068-4180-ad24-b56c7e0e447f">Vesuv</placeName> wird am 22.11. , 25.11. und 1.12. in Fußmärschen besucht.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_77261b0d-034a-408f-92e4-a1e7efcbfc5a">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-12-04">04. Dezember 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Besuch der Königlichen Eisengießerei in San Georgio bei Portici.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_511a001b-6eae-47e0-9e93-1f1c04e0524f">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-12-05">05. Dezember 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist im Gefolge <persName key="prov_ubn_bff_f5">Friedrich Wilhelms III.</persName> von <placeName key="prov_mbt_lpw_ls">Neapel</placeName> ab; 5.12. bis <placeName key="jd8839ef-c0bc-4005-8a09-ef3e38e781b3">Capua</placeName>; H. und nimmt an einem Raketenmanöver in den Ebenen von <placeName key="jd8839ef-c0bc-4005-8a09-ef3e38e781b3">Capua</placeName> teil. Die Weiterreise kann nicht wie geplant stattfinden, da die Brücke über den Garigliano durch ein Hochwasser zerstört worden ist. H. bleibt mit dem Gefolge zwei Tage in Sant' Agata bei Sessa, von wo aus er geologische Ausflüge in die benachbarten Berge unternimmt. Der König ist am 6.12. wieder in <placeName key="prov_mbt_lpw_ls">Neapel</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_61f776b1-d5d2-4e34-ab85-aeab5b617874">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-12-07">07. Dezember 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Abreise des Königs von <placeName key="prov_mbt_lpw_ls">Neapel</placeName> bis Terracina.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_44c8baf7-d170-4d6a-9ecc-c31039f0cc97">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-12-08">08. Dezember 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+Ankunft in <placeName key="j26375f5-d946-4f5e-9652-5d89f9c99071">Rom</placeName>; H. ist im Gefolge des Königs.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_0933fd76-0969-4562-a4e5-ed425830b776">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-12-11">11. Dezember 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. reist im Gefolge <persName key="prov_ubn_bff_f5">Friedrich Wilhelms III.</persName> von <placeName key="j26375f5-d946-4f5e-9652-5d89f9c99071">Rom</placeName> nach <placeName key="prov_ycp_cpr_js">Berlin</placeName>. Reiseroute: <placeName key="d16df432-1830-4afb-82ca-5951e5eae810">Florenz</placeName> (B: , 15., 17.12.), <placeName key="prov_i42_zlg_5s">Parma</placeName> (B: 19.12.), <placeName key="prov_tny_rlg_5s">Verona</placeName> (B: 21.12.), Innsbruck (B: 25. und 26.12.), <placeName key="cc540b11-fe8d-402c-a256-ad4f4e1ecba0">Dresden</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="gnd118554700_5727dbe8-816d-4155-9d2c-e31b6e4e54ca">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1822-12-15">15. Dezember 1822</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. in <placeName key="d16df432-1830-4afb-82ca-5951e5eae810">Florenz</placeName>, Hotel de Schneider.Reisedaten <persName key="prov_ubn_bff_f5">Friedrich Wilhelm III.</persName>: 11.12. Abreise von <placeName key="j26375f5-d946-4f5e-9652-5d89f9c99071">Rom</placeName>, 12.12. Foligno, 13.12. Arezzo, 14.-16.12. <placeName key="d16df432-1830-4afb-82ca-5951e5eae810">Florenz</placeName>, 17.12. Abreise, Übernachtung in Covigliajo, 18.12. bis <placeName key="prov_axt_zpw_ls">Bologna</placeName>, 19.12. bis <placeName key="prov_i42_zlg_5s">Parma</placeName>, 20.-21.12. <placeName key="prov_tny_rlg_5s">Verona</placeName>, 22.12. bis Trient, 23.12. bis Brixen, 24.-26.12. Innsbruck, 26.12. bis St. Johann, 27.12. <placeName key="prov_lb1_jpw_ls">Salzburg</placeName>, 28.12. Wels, 29.12. Coplitz, 30.12. Tabor, 31.12. <placeName key="kfb1b424-ca0a-4993-8529-e66b7853e6af">Prag</placeName>, 1.1.1823 <placeName key="bf2e84c2-b9fc-4e08-8ac8-9e1473b514a8">Teplitz</placeName>, 2.1. Großenhain, 3.1. <placeName key="prov_ivc_gzp_st">Potsdam</placeName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
