@@ -28,11 +28,24 @@ public class XMLtoCSVConverter {
 	private File destinationFile;
 	
 	
+	/**
+	 * Creates a new XMLtoCSVConverter for the specified input folder and destination file.
+	 * @param inputfolder
+	 * @param destinationFile
+	 */
 	public XMLtoCSVConverter(String inputfolder, String destinationFile){
 		this.inputfolder = new File(inputfolder);
 		this.destinationFile = new File(destinationFile);
 	}
 	
+	
+	/**
+	 * Processes the input file, writes results to the destination file.
+	 * @throws XPathExpressionException
+	 * @throws ParserConfigurationException
+	 * @throws SAXException
+	 * @throws IOException
+	 */
 	public void process() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
 		List<DiaryEntry> entries = new ArrayList<DiaryEntry>();
 		
@@ -50,7 +63,16 @@ public class XMLtoCSVConverter {
 		
 	}
 	
-	private List<DiaryEntry> readFile(File file) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException{
+	/**
+	 * Reads the specified file and generates a DiaryEntry object for each diary entry within this file.
+	 * @param file File with TEI-diary entries
+	 * @return List of DiaryEntry|s found within the File
+	 * @throws ParserConfigurationException
+	 * @throws SAXException
+	 * @throws IOException
+	 * @throws XPathExpressionException
+	 */
+	public List<DiaryEntry> readFile(File file) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException{
 		List<DiaryEntry> toReturn = new ArrayList<DiaryEntry>();
 		
 		 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -80,18 +102,34 @@ public class XMLtoCSVConverter {
          NodeList nodes = (NodeList) result;
          for (int i=0; i<nodes.getLength();i++){
          	
+        	String id = nodes.item(i).getAttributes().item(0).getNodeValue();
+          	DiaryEntry newDE = new DiaryEntry(id);
+        	 
              //System.out.println(nodes.item(i).getNodeValue());
          	String date = nodes.item(i).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getAttributes().item(0).getTextContent();
          	
          	//String text = nodes.item(i).getChildNodes().item(2).getNodeValue();
          	String text = nodes.item(i).getChildNodes().item(3).getTextContent();
+         	NodeList childNodes = nodes.item(i).getChildNodes().item(3).getChildNodes().item(1).getChildNodes().item(1).getChildNodes();
+         	for(int j=0; j <childNodes.getLength();j++){
+         		//System.out.println(childNodes.item(j).getNodeName());
+         		if(childNodes.item(j).getNodeName().equals("placeName")){         		
+         			String location = childNodes.item(j).getTextContent();
+         			System.out.println("Place: " + location);
+         			newDE.addLocation(location);
+         		}
+         		if(childNodes.item(j).getNodeName().equals("persName")){
+         			String person = childNodes.item(j).getTextContent();
+         			System.out.println("Person: " + person);
+         			newDE.addPerson(person);
+         		}
+         	}
          	
-         	String id = nodes.item(i).getAttributes().item(0).getNodeValue();
-         	DiaryEntry newDE = new DiaryEntry(id);
+         	
          	newDE.setDate(date);
          	newDE.setText(text.trim());
          	
-         	System.out.println(newDE);
+         	//System.out.println(newDE);
          	
          	toReturn.add(newDE);
          }

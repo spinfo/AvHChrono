@@ -16,7 +16,7 @@ public class AvHCTester {
 
 	@Test
 	public void test() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
-		XMLtoCSVConverter conv = new XMLtoCSVConverter("AvHChronologie", "output.csv");
+		XMLtoCSVConverter conv = new XMLtoCSVConverter("AvHChronologie", "AvHChrono.csv");
 		conv.process();
 	}
 
