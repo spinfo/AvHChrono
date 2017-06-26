@@ -46,7 +46,7 @@ public class XMLtoCSVConverter {
 	 * @throws SAXException
 	 * @throws IOException
 	 */
-	public void process() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
+	public List<DiaryEntry> process() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
 		List<DiaryEntry> entries = new ArrayList<DiaryEntry>();
 		
 		File[] list = inputfolder.listFiles();
@@ -60,7 +60,7 @@ public class XMLtoCSVConverter {
 		
 		out.flush();
 		out.close();
-		
+		return entries;
 	}
 	
 	/**
