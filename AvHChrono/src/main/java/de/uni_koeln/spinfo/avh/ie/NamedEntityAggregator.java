@@ -11,11 +11,22 @@ import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
 
+/**
+ * Class to search Named Entities in texts of DiaryEntries and save them to the specified NE-sets.
+ * @author jhermes
+ *
+ */
 public class NamedEntityAggregator {
 	
 	private AbstractSequenceClassifier<CoreLabel> classifier1;
 	private AbstractSequenceClassifier<CoreLabel> classifier2;
 	
+	/**
+	 * Initializes a new NamedEntityAggregator by using two different models for German.
+	 * @throws ClassCastException
+	 * @throws ClassNotFoundException
+	 * @throws IOException
+	 */
 	public NamedEntityAggregator() throws ClassCastException, ClassNotFoundException, IOException{
 		String serializedClassifier1 = "StanfordNER/classifiers/dewac_175m_600.crf.ser.gz";
 		String serializedClassifier2 = "StanfordNER/classifiers/hgc_175m_600.crf.ser.gz";
@@ -23,13 +34,17 @@ public class NamedEntityAggregator {
 		classifier2 = CRFClassifier.getClassifier(serializedClassifier2);
 	}
 
+	/**
+	 * Performes NER on specified DiaryEntries and saves them to the specified NE-sets
+	 * @param entries 
+	 */
 	public void doNER(List<DiaryEntry> entries) {
 		for (DiaryEntry diaryEntry : entries) {
 			String text = diaryEntry.getText();
 			System.out.println(diaryEntry);
 			addEntitiesToEntry(diaryEntry, extractEntities(classifier1.classifyToString(text, "tabbedEntities", false)));
 			addEntitiesToEntry(diaryEntry, extractEntities(classifier2.classifyToString(text, "tabbedEntities", false)));
-			System.out.println(diaryEntry);
+			//System.out.println(diaryEntry);
 		}
 	}
 	
