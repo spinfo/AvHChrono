@@ -14,6 +14,7 @@ public class DiaryEntry {
 	private String text;
 	private Set<String> locations;
 	private Set<String> persons;
+	private Set<String> unspecified;
 	
 	/**
 	 * Creates diary entry with specified id
@@ -23,6 +24,7 @@ public class DiaryEntry {
 		this.id = id;
 		this.locations = new TreeSet<String>();
 		this.persons = new TreeSet<String>();
+		this.unspecified = new TreeSet<String>();
 	}
 
 	/**
@@ -74,6 +76,15 @@ public class DiaryEntry {
 		return locations;
 	}
 	
+	
+	/**
+	 * Returns the unspecified information mentioned in the diary entry
+	 * @return Set of unspecified information
+	 */
+	public Set<String> getUnspecified() {
+		return unspecified;
+	}
+
 	/**
 	 * Adds a location 
 	 * @param location
@@ -92,11 +103,21 @@ public class DiaryEntry {
 		return persons.add(person);
 	}
 	
+	/**
+	 * Adds a unspecified info string 
+	 * @param unspecified info string 
+	 * @return true, if unspecified info is new to the diary entry, false otherwise
+	 */
+	public boolean addUnspecified(String unspec){
+		return unspecified.add(unspec);
+	}
+	
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	public String toString(){
-		return id + "\t" + date+ "\t" + text + "\t" + locations + "\t" +  persons;
+		return id + "\t" + date+ "\t" + text + "\t" + locations + "\t" +  persons + "\t" + unspecified;
 	}
 
 }
