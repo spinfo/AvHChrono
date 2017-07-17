@@ -76,6 +76,10 @@ public class DiaryEntry {
 		return locations;
 	}
 	
+	public Set<String> getPersons() {
+		return this.persons;
+	}
+	
 	
 	/**
 	 * Returns the unspecified information mentioned in the diary entry

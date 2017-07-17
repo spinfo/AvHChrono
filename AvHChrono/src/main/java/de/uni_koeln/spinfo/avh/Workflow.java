@@ -13,6 +13,7 @@ import org.xml.sax.SAXException;
 
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
 import de.uni_koeln.spinfo.avh.ie.NamedEntityAggregator;
+import de.uni_koeln.spinfo.avh.ie.NamedEntityAnnotator;
 import de.uni_koeln.spinfo.avh.xml.XMLtoCSVConverter;
 
 /**
@@ -43,8 +44,11 @@ public class Workflow {
 		List<DiaryEntry> readEntries = conv.process();
 		
 		//Perform NER on converted data
-		NamedEntityAggregator ner = new NamedEntityAggregator();
+		NamedEntityAggregator ner	 = new NamedEntityAggregator();
 		ner.doNER(readEntries);
+		
+		NamedEntityAnnotator nea = new NamedEntityAnnotator();
+		nea.annotateDiaryEntries(readEntries);
 		
 		//Write data to csv file
 		PrintWriter out = new PrintWriter(new FileWriter(new File(processedDataFile)));
