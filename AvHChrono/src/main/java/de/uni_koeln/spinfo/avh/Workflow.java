@@ -11,10 +11,10 @@ import javax.xml.xpath.XPathExpressionException;
 
 import org.xml.sax.SAXException;
 
+import de.uni_koeln.spinfo.avh.converters.XMLtoCSVConverter;
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
 import de.uni_koeln.spinfo.avh.ie.NamedEntityAggregator;
 import de.uni_koeln.spinfo.avh.ie.NamedEntityAnnotator;
-import de.uni_koeln.spinfo.avh.xml.XMLtoCSVConverter;
 
 /**
  * Class to address several procedures for the Humboldt Diary Data.
@@ -33,16 +33,16 @@ public class Workflow {
 	 * @throws ClassCastException
 	 * @throws ClassNotFoundException
 	 */
-	public static void process(String inputFolderLocation) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, ClassCastException, ClassNotFoundException{
+	public static void fullWorkflow(String inputFolderLocation) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, ClassCastException, ClassNotFoundException{
 		
 		//Output file location
-		String convertedDataFile = "output/AvHChrono.csv";
-		String processedDataFile = "output/AvHChronoTagged.csv";
+		String convertedDataFile = "output/AvHChronoNeu.csv";
+		String processedDataFile = "output/AvHChronoTaggedNeu.csv";
 		
 		//Read XML data and convert them to DiaryEntries / a csv file
 		XMLtoCSVConverter conv = new XMLtoCSVConverter(inputFolderLocation, convertedDataFile);
 		List<DiaryEntry> readEntries = conv.process();
-		
+		conv.writeCSVFile(readEntries);
 		//Perform NER on converted data
 		NamedEntityAggregator ner	 = new NamedEntityAggregator();
 		ner.doNER(readEntries);
@@ -58,6 +58,14 @@ public class Workflow {
 		}
 		out.flush();
 		out.close();
+	}
+	
+	public static void readCSVwriteXML(String inputFolderLocation, String inputCSVlocation) throws IOException{
+		XMLtoCSVConverter conv = new XMLtoCSVConverter(inputFolderLocation, inputCSVlocation);		
+		List<DiaryEntry> importDiaryEntries = conv.importDiaryEntries();
+		for (DiaryEntry diaryEntry : importDiaryEntries) {
+			System.out.println(diaryEntry.getLocations());
+		}
 	}
 
 	

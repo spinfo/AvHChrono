@@ -16,9 +16,9 @@ public class NamedEntityAnnotator {
 			List<String> nerList = new ArrayList<String>(locations);
 			nerList.addAll(diaryEntry.getPersons());
 			Collections.sort(nerList, new StringLengthComparator<String>());
-		
 			System.out.println(nerList);
 		}
 	}
 
 }
+ 

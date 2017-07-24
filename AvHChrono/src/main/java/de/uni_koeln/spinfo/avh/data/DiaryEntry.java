@@ -117,6 +117,19 @@ public class DiaryEntry {
 	}
 	
 	
+	
+	public void setLocations(Set<String> locations) {
+		this.locations = locations;
+	}
+
+	public void setPersons(Set<String> persons) {
+		this.persons = persons;
+	}
+
+	public void setUnspecified(Set<String> unspecified) {
+		this.unspecified = unspecified;
+	}
+
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */

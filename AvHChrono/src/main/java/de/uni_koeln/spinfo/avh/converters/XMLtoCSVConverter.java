@@ -1,11 +1,15 @@
-package de.uni_koeln.spinfo.avh.xml;
+package de.uni_koeln.spinfo.avh.converters;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -38,6 +42,50 @@ public class XMLtoCSVConverter {
 		this.destinationFile = new File(destinationFile);
 	}
 	
+	public void writeCSVFile(List<DiaryEntry> diaryEntries) throws IOException{
+		
+		PrintWriter out = new PrintWriter(new FileWriter(destinationFile));
+		for (DiaryEntry diaryEntry : diaryEntries) {
+			out.println(diaryEntry);
+		}
+		
+		out.flush();
+		out.close();
+	}
+	
+	public List<DiaryEntry> importDiaryEntries() throws IOException{
+		List<DiaryEntry> toReturn = new ArrayList<DiaryEntry>();
+		BufferedReader in = new BufferedReader(new FileReader(destinationFile));
+		String line = in.readLine(); //first line is headline
+		line = in.readLine();
+		while(line!=null){
+			
+			String[] parts = line.split("\t");
+			DiaryEntry de = new DiaryEntry(parts[0]);
+			de.setDate(parts[1]);
+			de.setText(parts[2]);
+			de.setLocations(getSetFromString(parts[3]));
+			de.setPersons(getSetFromString(parts[4]));
+			de.setUnspecified(getSetFromString(parts[5]));
+			toReturn.add(de);
+			line = in.readLine();
+		}		
+		return toReturn;
+	}
+	
+	private Set<String> getSetFromString(String str){
+		str = str.substring(1, str.length()-1);
+		String[] elements = str.split(",");
+		
+		Set<String> set = new TreeSet<String>();
+		
+		for (String element : elements) {
+			set.add(element.trim());
+		}
+		
+		return set;
+	}
+	
 	
 	/**
 	 * Processes the input file, writes results to the destination file.
@@ -51,15 +99,10 @@ public class XMLtoCSVConverter {
 		
 		File[] list = inputfolder.listFiles();
 		for (File file : list) {
+			System.out.println(file.getName());
 			 entries.addAll(readFile(file));
 		}
-		PrintWriter out = new PrintWriter(new FileWriter(destinationFile));
-		for (DiaryEntry diaryEntry : entries) {
-			out.println(diaryEntry);
-		}
 		
-		out.flush();
-		out.close();
 		return entries;
 	}
 	
@@ -104,12 +147,21 @@ public class XMLtoCSVConverter {
          	
         	String id = nodes.item(i).getAttributes().item(0).getNodeValue();
           	DiaryEntry newDE = new DiaryEntry(id);
-        	 
+        	
+          	System.out.println(id);
              //System.out.println(nodes.item(i).getNodeValue());
          	String date = nodes.item(i).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getAttributes().item(0).getTextContent();
-         	
+         	System.out.println(date);
          	//String text = nodes.item(i).getChildNodes().item(2).getNodeValue();
          	String text = nodes.item(i).getChildNodes().item(3).getTextContent();
+         	text = text.replaceAll("[\\s]+", " ");
+//         	System.out.print(id + "\t");
+//         	System.out.print(text.length() + "\t");
+//         	text = text.replaceAll("-LRB- ", "");
+//         	text = text.replaceAll("-LSB- ", "");
+//         	text = text.replaceAll("-RSB- ", "");
+//         	text = text.replaceAll("-RRB- ", "");
+//         	System.out.println(text.length());
          	NodeList childNodes = nodes.item(i).getChildNodes().item(3).getChildNodes().item(1).getChildNodes().item(1).getChildNodes();
          	for(int j=0; j <childNodes.getLength();j++){
          		//System.out.println(childNodes.item(j).getNodeName());
