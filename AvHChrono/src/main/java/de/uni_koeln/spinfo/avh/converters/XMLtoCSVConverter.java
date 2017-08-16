@@ -63,10 +63,11 @@ public class XMLtoCSVConverter {
 			String[] parts = line.split("\t");
 			DiaryEntry de = new DiaryEntry(parts[0]);
 			de.setDate(parts[1]);
+			System.out.println(parts[1]);
 			de.setText(parts[2]);
 			de.setLocations(getSetFromString(parts[3]));
 			de.setPersons(getSetFromString(parts[4]));
-			de.setUnspecified(getSetFromString(parts[5]));
+			//de.setUnspecified(getSetFromString(parts[5]));
 			toReturn.add(de);
 			line = in.readLine();
 		}		
@@ -167,11 +168,13 @@ public class XMLtoCSVConverter {
          		//System.out.println(childNodes.item(j).getNodeName());
          		if(childNodes.item(j).getNodeName().equals("placeName")){         		
          			String location = childNodes.item(j).getTextContent();
+         			location = location.replaceAll("[\\s]+", " ");
          			System.out.println("Place: " + location);
          			newDE.addLocation(location);
          		}
          		if(childNodes.item(j).getNodeName().equals("persName")){
          			String person = childNodes.item(j).getTextContent();
+         			person = person.replaceAll("[\\s]+", " ");
          			System.out.println("Person: " + person);
          			newDE.addPerson(person);
          		}

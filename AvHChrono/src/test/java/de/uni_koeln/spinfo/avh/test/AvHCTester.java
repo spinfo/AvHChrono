@@ -23,11 +23,11 @@ public class AvHCTester {
 	@Test
 	public void testImporter() throws IOException{
 		
-		Workflow.readCSVwriteXML("AvHChronologie","output/AvHChronoNeu.csv");
-//		XMLtoCSVConverter xtc = new XMLtoCSVConverter("AvHChronologie", "output/AvHChronoTagged.csv");
-//		List<DiaryEntry> importDiaryEntries = xtc.importDiaryEntries();
-//		for (DiaryEntry diaryEntry : importDiaryEntries) {
-//			System.out.println(diaryEntry.getPersons());
-//		}
+		Workflow.readCSVwriteXML("AvHChronologieNeu","output/AvHChronoNeu.csv");
+		XMLtoCSVConverter xtc = new XMLtoCSVConverter("AvHChronologieNeu", "output/AvHChronoTagged.csv");
+		List<DiaryEntry> importDiaryEntries = xtc.importDiaryEntries();
+		for (DiaryEntry diaryEntry : importDiaryEntries) {
+			System.out.println(diaryEntry.getPersons());
+		}
 	}
 }
