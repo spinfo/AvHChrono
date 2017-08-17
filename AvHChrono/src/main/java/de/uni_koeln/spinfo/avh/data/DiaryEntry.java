@@ -76,6 +76,10 @@ public class DiaryEntry {
 		return locations;
 	}
 	
+	/**
+	 * Returns the persons mentioned in the diary entry
+	 * @return Set of persons
+	 */
 	public Set<String> getPersons() {
 		return this.persons;
 	}

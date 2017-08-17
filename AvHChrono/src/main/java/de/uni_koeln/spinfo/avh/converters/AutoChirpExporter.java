@@ -1,5 +1,9 @@
 package de.uni_koeln.spinfo.avh.converters;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -12,9 +16,33 @@ import de.unihd.dbs.heideltime.standalone.POSTagger;
 import de.unihd.dbs.heideltime.standalone.exceptions.DocumentCreationTimeMissingException;
 import de.unihd.dbs.uima.annotator.heideltime.resources.Language;
 
+/**
+ * Class to export DiaryEntries to a autoChirp import File.
+ * @author jhermes
+ *
+ */
 public class AutoChirpExporter {
+	
+	private File outputDir;
+	
+	/**
+	 * Creates a new AutoChirpExporter on specified output directory
+	 * @param outputDirectoryPath
+	 */
+	public AutoChirpExporter(String outputDirectoryPath){
+		outputDir = new File(outputDirectoryPath);
+		if(!outputDir.exists()){
+			outputDir.mkdirs();
+		}
+	}
 
-	public static String generateAutoChirpExport(List<DiaryEntry> entries) {
+	/**
+	 * Exports the specified DiaryEntries to a file with specified name in the output directory of this exporter.
+	 * @param entries DiaryEnties to export
+	 * @param filename Name of the output file (will be generated within the output dir)
+	 * @throws IOException 
+	 */
+	public void generateAutoChirpExport(List<DiaryEntry> entries, String filename) throws IOException {
 		HeidelTimeWrapper ht = initializeHeideltime();
 		StringBuffer buff = new StringBuffer();
 		for (DiaryEntry diaryEntry : entries) {
@@ -39,30 +67,28 @@ public class AutoChirpExporter {
 			buff.append(text);
 			buff.append("\n");
 		}
-
-		return buff.toString();
-
+		
+		
+		File outputFile = new File(outputDir, filename);
+		PrintWriter out = new PrintWriter(new FileWriter(outputFile));
+		out.println(buff.toString());
+		out.flush();
+		out.close();
 	}
 
-	private static String getTimeFromString(HeidelTimeWrapper ht, String toProcess) {
+	private String getTimeFromString(HeidelTimeWrapper ht, String toProcess) {
 		String processed;
 		processed = getTime(toProcess, ht);
 		return processed;
 	}
 
-	/**
-	 * returns a list of TimeML-annotated sentences
-	 *
-	 * @param document
-	 * @return list of tagged sentences
-	 */
-	private static HeidelTimeWrapper initializeHeideltime() {
+	private HeidelTimeWrapper initializeHeideltime() {
 		HeidelTimeWrapper ht = new HeidelTimeWrapper(Language.GERMAN, DocumentType.NARRATIVES, OutputType.TIMEML,
 				"/heideltime/config.props", POSTagger.TREETAGGER, false);
 		return ht;
 	}
 
-	public static String getTime(String text, HeidelTimeWrapper ht) {
+	public String getTime(String text, HeidelTimeWrapper ht) {
 		String timeml;
 		try {
 			timeml = ht.process(text);
@@ -83,7 +109,7 @@ public class AutoChirpExporter {
 
 	}
 
-	private static String parseTime(String string) {
+	private String parseTime(String string) {
 		String regex = "type=\"TIME\" value=\"[0-9|X]{4}-month-dayT([0-9|A-Z|:]+)\">";
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(string);

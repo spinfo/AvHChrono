@@ -17,15 +17,11 @@ public class TestAutoChirpExport {
 	@Test
 	public void test() throws IOException {
 		XMLtoCSVConverter xtc = new XMLtoCSVConverter("AvHChronologieNeu", "output/AvHChronoNeu.csv");
-		List<DiaryEntry> importDiaryEntries = xtc.importDiaryEntries();
+		List<DiaryEntry> importedDiaryEntries = xtc.importDiaryEntries();
 		//for (DiaryEntry diaryEntry : importDiaryEntries) {
-		String content = AutoChirpExporter.generateAutoChirpExport(importDiaryEntries);
-		File export = new File("output/AvHTweets.tsv");
-		PrintWriter out = new PrintWriter(new FileWriter(export));
-		out.println(content);
-		out.flush();
-		out.close();
-		//}
+		AutoChirpExporter ace = new AutoChirpExporter("output");
+		ace.generateAutoChirpExport(importedDiaryEntries, "AvHDiaryTweets.tsv");
+		
 	}
 
 }

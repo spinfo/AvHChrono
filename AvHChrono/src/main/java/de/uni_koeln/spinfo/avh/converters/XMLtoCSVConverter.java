@@ -26,6 +26,11 @@ import org.xml.sax.SAXException;
 
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
 
+/**
+ * Converts TEI-xml files of diary entries (BBAW-format) to DiaryEntry objects and to a tsv export format.
+ * @author jhermes
+ *
+ */
 public class XMLtoCSVConverter {
 	
 	private File inputfolder;
@@ -34,7 +39,7 @@ public class XMLtoCSVConverter {
 	
 	/**
 	 * Creates a new XMLtoCSVConverter for the specified input folder and destination file.
-	 * @param inputfolder
+	 * @param inputfolder 
 	 * @param destinationFile
 	 */
 	public XMLtoCSVConverter(String inputfolder, String destinationFile){
@@ -42,6 +47,11 @@ public class XMLtoCSVConverter {
 		this.destinationFile = new File(destinationFile);
 	}
 	
+	/**
+	 * The export function: Writes the specified DiaryEntries to a tsv file at this converters destination file.
+	 * @param diaryEntries
+	 * @throws IOException
+	 */
 	public void writeCSVFile(List<DiaryEntry> diaryEntries) throws IOException{
 		
 		PrintWriter out = new PrintWriter(new FileWriter(destinationFile));
@@ -53,6 +63,11 @@ public class XMLtoCSVConverter {
 		out.close();
 	}
 	
+	/**
+	 * The import function: Reads a list of DiaryEntries from this converters destFile.
+	 * @return
+	 * @throws IOException
+	 */
 	public List<DiaryEntry> importDiaryEntries() throws IOException{
 		List<DiaryEntry> toReturn = new ArrayList<DiaryEntry>();
 		BufferedReader in = new BufferedReader(new FileReader(destinationFile));
