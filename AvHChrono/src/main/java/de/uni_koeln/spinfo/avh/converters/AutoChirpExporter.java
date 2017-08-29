@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.text.StringEscapeUtils;
+
 import autoChirp.preProcessing.HeidelTimeWrapper;
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
 import de.unihd.dbs.heideltime.standalone.DocumentType;
@@ -64,14 +66,17 @@ public class AutoChirpExporter {
 			buff.append(time);
 			buff.append("\t");
 			buff.append("["+ year + "] ");
-			buff.append(text);
+			String fulltext = "http://edition-humboldt.de/"+diaryEntry.getId() + "\n" + text;
+			fulltext = StringEscapeUtils.escapeJava(fulltext);
+			buff.append(fulltext);
 			buff.append("\n");
 		}
 		
 		
 		File outputFile = new File(outputDir, filename);
 		PrintWriter out = new PrintWriter(new FileWriter(outputFile));
-		out.println(buff.toString());
+		String toAdd = buff.toString();
+		out.println(toAdd);
 		out.flush();
 		out.close();
 	}

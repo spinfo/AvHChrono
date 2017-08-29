@@ -162,7 +162,19 @@ public class XMLtoCSVConverter {
          for (int i=0; i<nodes.getLength();i++){
          	
         	String id = nodes.item(i).getAttributes().item(0).getNodeValue();
-          	DiaryEntry newDE = new DiaryEntry(id);
+        	
+        	String altid;
+        	//System.out.println("ID: " + id);
+        	try{
+        		altid = nodes.item(i).getAttributes().item(1).getNodeValue();
+        		//System.out.println("AltID: " + altid);
+        		id=altid;
+        	}
+        	catch(NullPointerException e){
+        		System.out.println("No id: " + id);
+        		continue;    
+        	}
+          	DiaryEntry newDE = new DiaryEntry(altid);
         	
           	System.out.println(id);
              //System.out.println(nodes.item(i).getNodeValue());
@@ -184,13 +196,13 @@ public class XMLtoCSVConverter {
          		if(childNodes.item(j).getNodeName().equals("placeName")){         		
          			String location = childNodes.item(j).getTextContent();
          			location = location.replaceAll("[\\s]+", " ");
-         			System.out.println("Place: " + location);
+         			//System.out.println("Place: " + location);
          			newDE.addLocation(location);
          		}
          		if(childNodes.item(j).getNodeName().equals("persName")){
          			String person = childNodes.item(j).getTextContent();
          			person = person.replaceAll("[\\s]+", " ");
-         			System.out.println("Person: " + person);
+         			//System.out.println("Person: " + person);
          			newDE.addPerson(person);
          		}
          	}
