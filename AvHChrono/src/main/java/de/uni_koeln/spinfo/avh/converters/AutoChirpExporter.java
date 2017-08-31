@@ -66,7 +66,7 @@ public class AutoChirpExporter {
 			buff.append(time);
 			buff.append("\t");
 			buff.append("["+ year + "] ");
-			String fulltext = "http://edition-humboldt.de/"+diaryEntry.getId() + "\n" + text;
+			String fulltext = text + "\n\nhttp://edition-humboldt.de/"+diaryEntry.getId();
 			fulltext = StringEscapeUtils.escapeJava(fulltext);
 			buff.append(fulltext);
 			buff.append("\n");
