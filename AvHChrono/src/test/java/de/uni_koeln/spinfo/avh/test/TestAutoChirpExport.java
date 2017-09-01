@@ -19,8 +19,8 @@ public class TestAutoChirpExport {
 		XMLtoCSVConverter xtc = new XMLtoCSVConverter("AvHChronologieNeu", "output/AvHChronoXXX.csv");
 		List<DiaryEntry> importedDiaryEntries = xtc.importDiaryEntries();
 		//for (DiaryEntry diaryEntry : importDiaryEntries) {
-		AutoChirpExporter ace = new AutoChirpExporter("output");
-		ace.generateAutoChirpExport(importedDiaryEntries, "AvHDiaryTweetsXXX.tsv");
+//		AutoChirpExporter ace = new AutoChirpExporter("output");
+//		ace.generateAutoChirpExport(importedDiaryEntries, "AvHDiaryTweetsXXX.tsv");
 		
 	}
 

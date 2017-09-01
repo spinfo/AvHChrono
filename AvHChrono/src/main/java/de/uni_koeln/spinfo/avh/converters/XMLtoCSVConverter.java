@@ -7,7 +7,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -25,6 +27,8 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
+import de.uni_koeln.spinfo.avh.data.Location;
+import de.uni_koeln.spinfo.avh.data.Person;
 
 /**
  * Converts TEI-xml files of diary entries (BBAW-format) to DiaryEntry objects and to a tsv export format.
@@ -36,7 +40,18 @@ public class XMLtoCSVConverter {
 	private File inputfolder;
 	private File destinationFile;
 	
+	private Map<String, Person> persons;
+	private Map<String, Location> locations;
 	
+	
+	public Map<String, Person> getPersons() {
+		return persons;
+	}
+
+	public Map<String, Location> getLocations() {
+		return locations;
+	}
+
 	/**
 	 * Creates a new XMLtoCSVConverter for the specified input folder and destination file.
 	 * @param inputfolder 
@@ -45,6 +60,8 @@ public class XMLtoCSVConverter {
 	public XMLtoCSVConverter(String inputfolder, String destinationFile){
 		this.inputfolder = new File(inputfolder);
 		this.destinationFile = new File(destinationFile);
+		persons = new HashMap<String, Person>();
+		locations = new HashMap<String, Location>();
 	}
 	
 	/**
@@ -195,15 +212,31 @@ public class XMLtoCSVConverter {
          		//System.out.println(childNodes.item(j).getNodeName());
          		if(childNodes.item(j).getNodeName().equals("placeName")){         		
          			String location = childNodes.item(j).getTextContent();
+         			
          			location = location.replaceAll("[\\s]+", " ");
          			//System.out.println("Place: " + location);
          			newDE.addLocation(location);
          		}
          		if(childNodes.item(j).getNodeName().equals("persName")){
-         			String person = childNodes.item(j).getTextContent();
-         			person = person.replaceAll("[\\s]+", " ");
+         			
+         			
+         			String bbawid = childNodes.item(j).getAttributes().item(0).getTextContent();
+         			Person person;
+         			if(persons.containsKey(bbawid)){
+         				person = persons.get(bbawid);
+         			}
+         			else{
+         				String name = childNodes.item(j).getTextContent();
+             			name = name.replaceAll("[\\s]+", " ");
+             			person = new Person(name, bbawid);
+             			persons.put(bbawid, person);
+         			}         			
+         		
          			//System.out.println("Person: " + person);
-         			newDE.addPerson(person);
+         			if(person.getPictureUrl()!=null){
+         				newDE.addPerson(person.getBbaw_id());
+         			}
+         				
          		}
          	}
          	

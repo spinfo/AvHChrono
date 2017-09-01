@@ -4,7 +4,10 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,6 +15,7 @@ import org.apache.commons.text.StringEscapeUtils;
 
 import autoChirp.preProcessing.HeidelTimeWrapper;
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
+import de.uni_koeln.spinfo.avh.data.Person;
 import de.unihd.dbs.heideltime.standalone.DocumentType;
 import de.unihd.dbs.heideltime.standalone.OutputType;
 import de.unihd.dbs.heideltime.standalone.POSTagger;
@@ -27,15 +31,18 @@ public class AutoChirpExporter {
 	
 	private File outputDir;
 	
+	private Map<String, Person> persons;
+	
 	/**
 	 * Creates a new AutoChirpExporter on specified output directory
 	 * @param outputDirectoryPath
 	 */
-	public AutoChirpExporter(String outputDirectoryPath){
+	public AutoChirpExporter(String outputDirectoryPath, Map<String, Person> persons){
 		outputDir = new File(outputDirectoryPath);
 		if(!outputDir.exists()){
 			outputDir.mkdirs();
 		}
+		this.persons = persons;
 	}
 
 	/**
@@ -69,6 +76,20 @@ public class AutoChirpExporter {
 			String fulltext = text + "\n\nhttp://edition-humboldt.de/"+diaryEntry.getId();
 			fulltext = StringEscapeUtils.escapeJava(fulltext);
 			buff.append(fulltext);
+			//set link to picture, if existent
+			String person = null;
+			if(!diaryEntry.getPersons().isEmpty()){
+				List<String> persList = new ArrayList<String>(diaryEntry.getPersons());
+				Random random = new Random();
+				System.out.println(persList.size() +" " +  persList);
+				String pers = persList.get(random.nextInt(persList.size()));
+				Person personObj = persons.get(pers);
+				fulltext = "\n\nBild: " + personObj.getName() + " \nBildquelle: Wikimedia Commons";
+				fulltext = StringEscapeUtils.escapeJava(fulltext);
+				buff.append(fulltext);
+				buff.append("\t" + personObj.getPictureUrl());
+			}
+				
 			buff.append("\n");
 		}
 		

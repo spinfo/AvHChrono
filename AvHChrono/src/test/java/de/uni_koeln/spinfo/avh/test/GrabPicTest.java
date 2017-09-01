@@ -13,6 +13,7 @@ public class GrabPicTest {
 
 	@Test
 	public void test() throws IOException, URISyntaxException {
+		System.out.println(extractWikiCommonsImages("http://edition-humboldt.de/register/personen/detail.xql?id=H0012068"));
 		System.out.println(extractWikiCommonsImages("http://edition-humboldt.de/register/personen/detail.xql?id=H0006329"));
 	}
 	
