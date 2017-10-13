@@ -67,7 +67,7 @@ public class AutoChirpExporter {
 			int year = Integer.parseInt(date.substring(0, 4));
 			String text = diaryEntry.getText();
 			String time = getTimeFromString(ht, text);
-			if(time==null) time = "12:00";
+			if(time==null) time = generateTime(year);
 			buff.append(date);
 			buff.append("\t");
 			buff.append(time);
@@ -156,6 +156,27 @@ public class AutoChirpExporter {
 		}
 
 		return null;
+	}
+	
+	private String generateTime(int year) {
+		year -= 600;
+		int hour = 12;
+		if(year<1200) {
+			year-= 40;
+			hour = 11;
+		}
+		int minute = year%100;
+		String time ="";
+		if(minute<10) {
+			time = hour + ":0" + minute;
+
+		}
+		else {
+			time = hour + ":" + minute;
+
+		}
+		System.out.println("TIME: " + time);
+		return time;
 	}
 
 }
