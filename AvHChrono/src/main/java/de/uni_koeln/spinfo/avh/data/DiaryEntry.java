@@ -1,6 +1,8 @@
 package de.uni_koeln.spinfo.avh.data;
 
+import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 /**
@@ -12,8 +14,8 @@ public class DiaryEntry {
 	private String id;
 	private String date;
 	private String text;
-	private Set<String> locations;
-	private Set<String> persons;
+	private Map<String, Location> locations;
+	private Map<String, Person> persons;
 	private Set<String> unspecified;
 	
 	/**
@@ -22,8 +24,8 @@ public class DiaryEntry {
 	 */
 	public DiaryEntry(String id){
 		this.id = id;
-		this.locations = new TreeSet<String>();
-		this.persons = new TreeSet<String>();
+		this.locations = new TreeMap<String,Location>();
+		this.persons = new TreeMap<String,Person>();
 		this.unspecified = new TreeSet<String>();
 	}
 
@@ -72,16 +74,19 @@ public class DiaryEntry {
 	 * Returns the locations mentioned in the diary entry
 	 * @return Set of locations
 	 */
-	public Set<String> getLocations() {
-		return locations;
+	public Set<Location> getLocations() {
+		return new TreeSet<Location>(locations.values());
 	}
 	
 	/**
 	 * Returns the persons mentioned in the diary entry
 	 * @return Set of persons
 	 */
-	public Set<String> getPersons() {
-		return this.persons;
+	public Set<Person> getPersons() {
+		if(this.persons.values()==null) {
+			return new TreeSet<Person>();
+		}
+		return new TreeSet<Person>(this.persons.values());
 	}
 	
 	
@@ -96,10 +101,10 @@ public class DiaryEntry {
 	/**
 	 * Adds a location 
 	 * @param location
-	 * @return true, if location is new to the diary entry, false otherwise
 	 */
-	public boolean addLocation(String location){
-		return locations.add(location);
+	public void addLocation(Location location){
+		locations.put(location.getBbaw_id(), location);
+	
 	}
 	
 	/**
@@ -107,8 +112,8 @@ public class DiaryEntry {
 	 * @param person
 	 * @return true, if person is new to the diary entry, false otherwise
 	 */
-	public boolean addPerson(String person){
-		return persons.add(person);
+	public void addPerson(Person person){
+		persons.put(person.getBbaw_id(), person);
 	}
 	
 	/**
@@ -122,11 +127,11 @@ public class DiaryEntry {
 	
 	
 	
-	public void setLocations(Set<String> locations) {
+	public void setLocations(Map<String,Location> locations) {
 		this.locations = locations;
 	}
 
-	public void setPersons(Set<String> persons) {
+	public void setPersons(Map<String,Person> persons) {
 		this.persons = persons;
 	}
 

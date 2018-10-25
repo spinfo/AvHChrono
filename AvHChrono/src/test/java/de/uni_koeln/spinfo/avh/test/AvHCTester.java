@@ -19,25 +19,25 @@ public class AvHCTester {
 
 	@Test
 	public void test() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, ClassCastException, ClassNotFoundException {
-		Workflow.fullWorkflow("AVHChronologieNeu");
+		Workflow.fullWorkflow("AVHChronoShort");
 	}
 
-	@Test
-	public void testImporter() throws IOException{
-		
-		Workflow.readCSVwriteXML("AvHChronologieNeu","output/AvHChronoNeu.csv");
-		XMLtoCSVConverter xtc = new XMLtoCSVConverter("AvHChronologieNeu", "output/AvHChronoTagged.csv");
-		List<DiaryEntry> importDiaryEntries = xtc.importDiaryEntries();
-		for (DiaryEntry diaryEntry : importDiaryEntries) {
-			System.out.println(diaryEntry.getPersons());
-		}
-	}
-	
-	@Test
-	public void testBBAWEntities() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
-		XMLtoCSVConverter conv = new XMLtoCSVConverter("AvHChronologieNeu", "output/TweetsWithPics.csv");
-		List<DiaryEntry> process = conv.process();
-		AutoChirpExporter ace = new AutoChirpExporter("output", conv.getPersons());
-		ace.generateAutoChirpExport(process, "AvHDiaryTweetsPics.tsv");
-	}
+//	@Test
+//	public void testImporter() throws IOException{
+//		
+//		Workflow.readCSVwriteXML("AvHChronologieNeu","output/AvHChronoNeu.csv");
+//		XMLtoCSVConverter xtc = new XMLtoCSVConverter("AvHChronologieNeu", "output/AvHChronoTagged.csv");
+//		List<DiaryEntry> importDiaryEntries = xtc.importDiaryEntries();
+//		for (DiaryEntry diaryEntry : importDiaryEntries) {
+//			System.out.println(diaryEntry.getPersons());
+//		}
+//	}
+//	
+//	@Test
+//	public void testBBAWEntities() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
+//		XMLtoCSVConverter conv = new XMLtoCSVConverter("AvHChronologieNeu", "output/TweetsWithPics.csv");
+//		List<DiaryEntry> process = conv.process();
+//		AutoChirpExporter ace = new AutoChirpExporter("output", conv.getPersons());
+//		ace.generateAutoChirpExport(process, "AvHDiaryTweetsPics.tsv");
+//	}
 }

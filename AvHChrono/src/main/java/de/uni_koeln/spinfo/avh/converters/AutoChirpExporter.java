@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -31,18 +32,17 @@ public class AutoChirpExporter {
 	
 	private File outputDir;
 	
-	private Map<String, Person> persons;
-	
+		
 	/**
 	 * Creates a new AutoChirpExporter on specified output directory
 	 * @param outputDirectoryPath
 	 */
-	public AutoChirpExporter(String outputDirectoryPath, Map<String, Person> persons){
+	public AutoChirpExporter(String outputDirectoryPath){
 		outputDir = new File(outputDirectoryPath);
 		if(!outputDir.exists()){
 			outputDir.mkdirs();
 		}
-		this.persons = persons;
+		
 	}
 
 	/**
@@ -79,11 +79,10 @@ public class AutoChirpExporter {
 			//set link to picture, if existent
 			String person = null;
 			if(!diaryEntry.getPersons().isEmpty()){
-				List<String> persList = new ArrayList<String>(diaryEntry.getPersons());
+				List<Person> persList = new ArrayList(diaryEntry.getPersons());
 				Random random = new Random();
 				System.out.println(persList.size() +" " +  persList);
-				String pers = persList.get(random.nextInt(persList.size()));
-				Person personObj = persons.get(pers);
+				Person personObj = persList.get(random.nextInt(persList.size()));
 				fulltext = "\n\nBild: " + personObj.getName() + " \nBildquelle: Wikimedia Commons";
 				fulltext = StringEscapeUtils.escapeJava(fulltext);
 				buff.append(fulltext);

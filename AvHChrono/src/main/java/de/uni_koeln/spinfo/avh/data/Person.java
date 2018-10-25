@@ -14,6 +14,11 @@ public class Person extends BBAWEntity implements Serializable{
 	public String getPictureUrl() {
 		return pictureUrl;
 	}
+	
+	public Person(String name, String bbaw_id, String pictureUrl) {
+		super(name, bbaw_id);
+		this.pictureUrl = pictureUrl;
+	}
 
 	public Person(String name, String bbaw_id) {
 		super(name, bbaw_id);
@@ -45,6 +50,11 @@ public class Person extends BBAWEntity implements Serializable{
 			return null;
 		} 
     } 
+	
+	public String toString() {
+		String toReturn = this.getName() + "|" + this.getBbaw_id() + "|"+  pictureUrl;
+		return toReturn;
+	}
 	
 //	public URL extractWikiCommonsImages(String url) throws IOException, URISyntaxException{
 //        String wikiURL = Jsoup.connect(url).get()

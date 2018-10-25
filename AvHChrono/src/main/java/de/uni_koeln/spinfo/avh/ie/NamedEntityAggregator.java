@@ -7,6 +7,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
+import de.uni_koeln.spinfo.avh.data.Location;
+import de.uni_koeln.spinfo.avh.data.Person;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -71,13 +73,13 @@ public class NamedEntityAggregator {
 		List<String> locList = extractedEntities.get("I-LOC");
 		if(locList!=null){
 			for (String loc : locList) {
-				entry.addLocation(loc);
+				entry.addLocation(new Location(loc, loc));
 			}
 		}
 		List<String> perList = extractedEntities.get("I-PER");
 		if(perList!=null){
 			for (String per : perList) {
-				entry.addPerson(per);
+				entry.addPerson(new Person(per,per));
 			}
 		}
 		List<String> miscList = extractedEntities.get("I-MISC");

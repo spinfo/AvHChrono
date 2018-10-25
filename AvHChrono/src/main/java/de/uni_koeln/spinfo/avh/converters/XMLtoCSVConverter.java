@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -22,6 +23,7 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
+import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
@@ -44,6 +46,9 @@ public class XMLtoCSVConverter {
 	private Map<String, Location> locations;
 	
 	
+	/**
+	 * @return Persons
+	 */
 	public Map<String, Person> getPersons() {
 		return persons;
 	}
@@ -97,8 +102,8 @@ public class XMLtoCSVConverter {
 			de.setDate(parts[1]);
 			System.out.println(parts[1]);
 			de.setText(parts[2]);
-			de.setLocations(getSetFromString(parts[3]));
-			de.setPersons(getSetFromString(parts[4]));
+			de.setLocations(getLocationsFromString(parts[3]));
+			de.setPersons(getPersonsFromString(parts[4]));
 			//de.setUnspecified(getSetFromString(parts[5]));
 			toReturn.add(de);
 			line = in.readLine();
@@ -119,6 +124,43 @@ public class XMLtoCSVConverter {
 		return set;
 	}
 	
+	private Map<String, Location> getLocationsFromString(String str){
+		str = str.substring(1, str.length()-1);
+		if(str.length()==0) {
+			return null;
+		}
+		String[] elements = str.split(",");
+		
+		Map<String,Location> toReturn = new TreeMap<String, Location>();
+		
+		for (String element : elements) {
+			String[] split = element.split("|");
+			Location location = new Location(split[0], split[1]);
+			toReturn.put(location.getBbaw_id(), location);
+		}
+		
+		return toReturn;
+	}
+	
+	private Map<String, Person> getPersonsFromString(String str){
+		
+		str = str.substring(1, str.length()-1);
+		if(str.length()==0) {
+			return null;
+		}
+		String[] elements = str.split(",");
+		
+		Map<String,Person> toReturn = new TreeMap<String, Person>();
+		
+		for (String element : elements) {
+			String[] split = element.split("\"|\"");
+			
+			Person person = new Person(split[0], split[1], split[2]);
+			toReturn.put(person.getBbaw_id(), person);
+		}
+		
+		return toReturn;
+	}
 	
 	/**
 	 * Processes the input file, writes results to the destination file.
@@ -195,7 +237,13 @@ public class XMLtoCSVConverter {
         	
           	System.out.println(id);
              //System.out.println(nodes.item(i).getNodeValue());
-         	String date = nodes.item(i).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getAttributes().item(0).getTextContent();
+         	String date = null;
+         	try {
+				date = nodes.item(i).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getAttributes().item(0).getTextContent();
+			} catch(NullPointerException e){
+        		System.out.println("No date, skipping tweet with id: " + id);
+        		continue;    
+        	}
          	System.out.println(date);
          	//String text = nodes.item(i).getChildNodes().item(2).getNodeValue();
          	String text = nodes.item(i).getChildNodes().item(3).getTextContent();
@@ -212,10 +260,10 @@ public class XMLtoCSVConverter {
          		//System.out.println(childNodes.item(j).getNodeName());
          		if(childNodes.item(j).getNodeName().equals("placeName")){         		
          			String location = childNodes.item(j).getTextContent();
-         			
+         			String bbawid = childNodes.item(j).getAttributes().item(0).getTextContent();
          			location = location.replaceAll("[\\s]+", " ");
          			//System.out.println("Place: " + location);
-         			newDE.addLocation(location);
+         			newDE.addLocation(new Location(location, bbawid));
          		}
          		if(childNodes.item(j).getNodeName().equals("persName")){
          			
@@ -234,7 +282,7 @@ public class XMLtoCSVConverter {
          		
          			//System.out.println("Person: " + person);
          			if(person.getPictureUrl()!=null){
-         				newDE.addPerson(person.getBbaw_id());
+         				newDE.addPerson(person);
          			}
          				
          		}
