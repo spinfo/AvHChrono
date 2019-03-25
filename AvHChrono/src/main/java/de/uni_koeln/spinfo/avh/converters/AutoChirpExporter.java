@@ -72,7 +72,7 @@ public class AutoChirpExporter {
 			buff.append("\t");
 			buff.append(time);
 			buff.append("\t");
-			buff.append("["+ year + "] ");
+			buff.append("["+ year + "] #AvH250");
 			String fulltext = text + "\n\nhttp://edition-humboldt.de/"+diaryEntry.getId();
 			fulltext = StringEscapeUtils.escapeJava(fulltext);
 			buff.append(fulltext);

@@ -17,7 +17,7 @@ public class TestAutoChirpExport {
 
 	@Test
 	public void test() throws IOException, XPathExpressionException, ParserConfigurationException, SAXException {
-		XMLtoCSVConverter xtc = new XMLtoCSVConverter("Chronologie_1810", "output/export1810_3.csv");
+		XMLtoCSVConverter xtc = new XMLtoCSVConverter("Chronologie_1810", "output/export1810.csv");
 		//xtc = new XMLtoCSVConverter("AVHChronoShort", "output/export1810_2.csv");
 		List<DiaryEntry> importedDiaryEntries = xtc.process();
 		xtc.writeCSVFile(importedDiaryEntries);
