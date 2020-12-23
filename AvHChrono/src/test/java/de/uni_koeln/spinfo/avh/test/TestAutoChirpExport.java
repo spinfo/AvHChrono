@@ -17,14 +17,14 @@ public class TestAutoChirpExport {
 
 	@Test
 	public void test() throws IOException, XPathExpressionException, ParserConfigurationException, SAXException {
-		XMLtoCSVConverter xtc = new XMLtoCSVConverter("Chronologie_1810", "output/export1810.csv");
+		XMLtoCSVConverter xtc = new XMLtoCSVConverter("Chronologie_2012", "output/export2012.csv");
 		//xtc = new XMLtoCSVConverter("AVHChronoShort", "output/export1810_2.csv");
 		List<DiaryEntry> importedDiaryEntries = xtc.process();
 		xtc.writeCSVFile(importedDiaryEntries);
 		System.out.println("List size: " + importedDiaryEntries.size());
 		
 		AutoChirpExporter ace = new AutoChirpExporter("output");
-		ace.generateAutoChirpExport(importedDiaryEntries, "Chrono1810Full_3.tsv");
+		ace.generateAutoChirpExport(importedDiaryEntries, "Chrono_ehd-v6.tsv");
 		
 	}
 		

@@ -35,8 +35,8 @@ public class Workflow {
 	public static void fullWorkflow(String inputFolderLocation) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, ClassCastException, ClassNotFoundException{
 		
 		//Output file location
-		String convertedDataFile = "output/AvHChronoXXX.csv";
-		String processedDataFile = "output/AvHChronoTaggedXXX.csv";
+		String convertedDataFile = "output/AvHChrono_2212.csv";
+		String processedDataFile = "output/AvHChronoTagged_2012.csv";
 		
 		//Read XML data and convert them to DiaryEntries / a csv file
 		XMLtoCSVConverter conv = new XMLtoCSVConverter(inputFolderLocation, convertedDataFile);
