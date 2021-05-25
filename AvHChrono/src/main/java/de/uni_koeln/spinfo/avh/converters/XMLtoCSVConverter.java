@@ -227,8 +227,11 @@ public class XMLtoCSVConverter {
           	//System.out.println(id);
              //System.out.println(nodes.item(i).getNodeValue());
          	String date = null;
+         	NodeList childNodes;
          	try {
 				date = nodes.item(i).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getChildNodes().item(1).getAttributes().item(0).getTextContent();
+         		childNodes = nodes.item(i).getChildNodes().item(3).getChildNodes().item(1).getChildNodes().item(1).getChildNodes();
+
 			} catch(NullPointerException e){
         		System.out.println("No date, skipping tweet with id: " + id);
         		continue;    
@@ -244,7 +247,7 @@ public class XMLtoCSVConverter {
 //         	text = text.replaceAll("-RSB- ", "");
 //         	text = text.replaceAll("-RRB- ", "");
 //         	System.out.println(text.length());
-         	NodeList childNodes = nodes.item(i).getChildNodes().item(3).getChildNodes().item(1).getChildNodes().item(1).getChildNodes();
+         
          	for(int j=0; j <childNodes.getLength();j++){
          		//System.out.println(childNodes.item(j).getNodeName());
          		if(childNodes.item(j).getNodeName().equals("placeName")){         		
