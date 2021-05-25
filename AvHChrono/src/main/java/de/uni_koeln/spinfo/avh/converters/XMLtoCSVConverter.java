@@ -33,7 +33,7 @@ import de.uni_koeln.spinfo.avh.data.Location;
 import de.uni_koeln.spinfo.avh.data.Person;
 
 /**
- * Converts TEI-xml files of diary entries (BBAW-format) to DiaryEntry objects and to a tsv export format.
+ * Converts xml-TEI files of diary entries (BBAW-format) to DiaryEntry objects and to a tsv export format.
  * @author jhermes
  *
  */
@@ -67,6 +67,25 @@ public class XMLtoCSVConverter {
 		this.destinationFile = new File(destinationFile);
 		persons = new HashMap<String, Person>();
 		locations = new HashMap<String, Location>();
+	}
+	
+	/**
+	 * The process function. Processes the input file, writes results to the destination file.
+	 * @throws XPathExpressionException
+	 * @throws ParserConfigurationException
+	 * @throws SAXException
+	 * @throws IOException
+	 */
+	public List<DiaryEntry> process() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
+		List<DiaryEntry> entries = new ArrayList<DiaryEntry>();
+		
+		File[] list = inputfolder.listFiles();
+		for (File file : list) {
+			System.out.println(file.getName());
+			 entries.addAll(readFile(file));
+		}
+		
+		return entries;
 	}
 	
 	/**
@@ -108,20 +127,8 @@ public class XMLtoCSVConverter {
 			toReturn.add(de);
 			line = in.readLine();
 		}		
+		in.close();
 		return toReturn;
-	}
-	
-	private Set<String> getSetFromString(String str){
-		str = str.substring(1, str.length()-1);
-		String[] elements = str.split(",");
-		
-		Set<String> set = new TreeSet<String>();
-		
-		for (String element : elements) {
-			set.add(element.trim());
-		}
-		
-		return set;
 	}
 	
 	private Map<String, Location> getLocationsFromString(String str){
@@ -154,7 +161,6 @@ public class XMLtoCSVConverter {
 		
 		for (String element : elements) {
 			String[] split = element.split("\"|\"");
-			
 			Person person = new Person(split[0], split[1], split[2]);
 			toReturn.put(person.getBbaw_id(), person);
 		}
@@ -162,24 +168,7 @@ public class XMLtoCSVConverter {
 		return toReturn;
 	}
 	
-	/**
-	 * Processes the input file, writes results to the destination file.
-	 * @throws XPathExpressionException
-	 * @throws ParserConfigurationException
-	 * @throws SAXException
-	 * @throws IOException
-	 */
-	public List<DiaryEntry> process() throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
-		List<DiaryEntry> entries = new ArrayList<DiaryEntry>();
-		
-		File[] list = inputfolder.listFiles();
-		for (File file : list) {
-			System.out.println(file.getName());
-			 entries.addAll(readFile(file));
-		}
-		
-		return entries;
-	}
+	
 	
 	/**
 	 * Reads the specified file and generates a DiaryEntry object for each diary entry within this file.
@@ -190,7 +179,7 @@ public class XMLtoCSVConverter {
 	 * @throws IOException
 	 * @throws XPathExpressionException
 	 */
-	public List<DiaryEntry> readFile(File file) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException{
+	private List<DiaryEntry> readFile(File file) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException{
 		List<DiaryEntry> toReturn = new ArrayList<DiaryEntry>();
 		
 		 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -235,7 +224,7 @@ public class XMLtoCSVConverter {
         	}
           	DiaryEntry newDE = new DiaryEntry(altid);
         	
-          	System.out.println(id);
+          	//System.out.println(id);
              //System.out.println(nodes.item(i).getNodeValue());
          	String date = null;
          	try {
@@ -244,7 +233,7 @@ public class XMLtoCSVConverter {
         		System.out.println("No date, skipping tweet with id: " + id);
         		continue;    
         	}
-         	System.out.println(date);
+         	//System.out.println(date);
          	//String text = nodes.item(i).getChildNodes().item(2).getNodeValue();
          	String text = nodes.item(i).getChildNodes().item(3).getTextContent();
          	text = text.replaceAll("[\\s]+", " ");
@@ -275,7 +264,9 @@ public class XMLtoCSVConverter {
          			}
          			else{
          				String name = childNodes.item(j).getTextContent();
+         				//System.out.println("Name before: " + name);
              			name = name.replaceAll("[\\s]+", " ");
+             			//System.out.println("Name after: " + name);
              			person = new Person(name, bbawid);
              			persons.put(bbawid, person);
          			}         			

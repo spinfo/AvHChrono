@@ -20,7 +20,7 @@ import de.uni_koeln.spinfo.avh.ie.NamedEntityAggregator;
  * @author jhermes
  *
  */
-public class Workflow {
+public class EnrichBBAWDataWorkflow {
 
 	/**
 	 * Processes the data found in the specified input folder  
@@ -56,7 +56,7 @@ public class Workflow {
 		out.close();
 	}
 	
-	public static void readCSVwriteXML(String inputFolderLocation, String inputCSVlocation) throws IOException{
+	private static void readCSVwriteXML(String inputFolderLocation, String inputCSVlocation) throws IOException{
 		XMLtoCSVConverter conv = new XMLtoCSVConverter(inputFolderLocation, inputCSVlocation);		
 		List<DiaryEntry> importDiaryEntries = conv.importDiaryEntries();
 		for (DiaryEntry diaryEntry : importDiaryEntries) {

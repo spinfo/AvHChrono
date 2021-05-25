@@ -6,22 +6,17 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Random;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.text.StringEscapeUtils;
 
-import autoChirp.preProcessing.HeidelTimeWrapper;
+//import autoChirp.preProcessing.HeidelTimeWrapper;
+//import autoChirp.preProcessing.HeidelTimeWrapper;
 import de.uni_koeln.spinfo.avh.data.DiaryEntry;
 import de.uni_koeln.spinfo.avh.data.Person;
-import de.unihd.dbs.heideltime.standalone.DocumentType;
-import de.unihd.dbs.heideltime.standalone.OutputType;
-import de.unihd.dbs.heideltime.standalone.POSTagger;
-import de.unihd.dbs.heideltime.standalone.exceptions.DocumentCreationTimeMissingException;
-import de.unihd.dbs.uima.annotator.heideltime.resources.Language;
+//import de.unihd.dbs.heideltime.standalone.exceptions.DocumentCreationTimeMissingException;
 
 /**
  * Class to export DiaryEntries to a autoChirp import File.
@@ -52,7 +47,7 @@ public class AutoChirpExporter {
 	 * @throws IOException 
 	 */
 	public void generateAutoChirpExport(List<DiaryEntry> entries, String filename) throws IOException {
-		HeidelTimeWrapper ht = initializeHeideltime();
+		//HeidelTimeWrapper ht = initializeHeideltime();
 		StringBuffer buff = new StringBuffer();
 		for (DiaryEntry diaryEntry : entries) {
 			String date = diaryEntry.getDate();
@@ -66,23 +61,27 @@ public class AutoChirpExporter {
 			}
 			int year = Integer.parseInt(date.substring(0, 4));
 			String text = diaryEntry.getText();
-			String time = getTimeFromString(ht, text);
+			String time = null; //getTimeFromString(ht, text);
 			if(time==null) time = generateTime(year);
 			buff.append(date);
 			buff.append("\t");
 			buff.append(time);
 			buff.append("\t");
-			buff.append("["+ year + "] #AvH250");
-			String fulltext = text + "\n\nhttp://edition-humboldt.de/"+diaryEntry.getId();
+			buff.append("["+ year + "] #ehd_v6 ");
+			String fulltext = text + "\n\nhttp://edition-humboldt.de/" + diaryEntry.getId();
 			fulltext = StringEscapeUtils.escapeJava(fulltext);
 			buff.append(fulltext);
 			//set link to picture, if existent
 			String person = null;
 			if(!diaryEntry.getPersons().isEmpty()){
 				List<Person> persList = new ArrayList(diaryEntry.getPersons());
+				for (Person pers : persList) {
+					System.out.println(pers.getBbaw_id());
+				}
 				Random random = new Random();
 				System.out.println(persList.size() +" " +  persList);
 				Person personObj = persList.get(random.nextInt(persList.size()));
+				
 				fulltext = "\n\nBild: " + personObj.getName() + " \nBildquelle: Wikimedia Commons";
 				fulltext = StringEscapeUtils.escapeJava(fulltext);
 				buff.append(fulltext);
@@ -101,38 +100,38 @@ public class AutoChirpExporter {
 		out.close();
 	}
 
-	private String getTimeFromString(HeidelTimeWrapper ht, String toProcess) {
-		String processed;
-		processed = getTime(toProcess, ht);
-		return processed;
-	}
+//	private String getTimeFromString(HeidelTimeWrapper ht, String toProcess) {
+//		String processed;
+//		processed = getTime(toProcess, ht);
+//		return processed;
+//	}
 
-	private HeidelTimeWrapper initializeHeideltime() {
-		HeidelTimeWrapper ht = new HeidelTimeWrapper(Language.GERMAN, DocumentType.NARRATIVES, OutputType.TIMEML,
-				"/heideltime/config.props", POSTagger.TREETAGGER, false);
-		return ht;
-	}
+//	private HeidelTimeWrapper initializeHeideltime() {
+//		HeidelTimeWrapper ht = new HeidelTimeWrapper(Language.GERMAN, DocumentType.NARRATIVES, OutputType.TIMEML,
+//				"/heideltime/config.props", POSTagger.TREETAGGER, false);
+//		return ht;
+//	}
 
-	public String getTime(String text, HeidelTimeWrapper ht) {
-		String timeml;
-		try {
-			timeml = ht.process(text);
-		} catch (DocumentCreationTimeMissingException e) {
-			e.printStackTrace();
-			return null;
-		}
-
-		
-		String toReturn = parseTime(timeml);
-		if(toReturn==null) return null;
-		if(toReturn.equals("MO")) return "08:00";
-		if(toReturn.equals("EV")) return "20:00";
-		if(toReturn.equals("AF")) return "16:00";
-		if(toReturn.equals("NI")) return "23:00";
-		if(toReturn.equals("DT")) return "12:00";
-		return toReturn;
-
-	}
+//	public String getTime(String text, HeidelTimeWrapper ht) {
+//		String timeml;
+//		try {
+//			timeml = ht.process(text);
+//		} catch (DocumentCreationTimeMissingException e) {
+//			e.printStackTrace();
+//			return null;
+//		}
+//
+//		
+//		String toReturn = parseTime(timeml);
+//		if(toReturn==null) return null;
+//		if(toReturn.equals("MO")) return "08:00";
+//		if(toReturn.equals("EV")) return "20:00";
+//		if(toReturn.equals("AF")) return "16:00";
+//		if(toReturn.equals("NI")) return "23:00";
+//		if(toReturn.equals("DT")) return "12:00";
+//		return toReturn;
+//
+//	}
 
 	private String parseTime(String string) {
 		String regex = "type=\"TIME\" value=\"[0-9|X]{4}-month-dayT([0-9|A-Z|:]+)\">";
