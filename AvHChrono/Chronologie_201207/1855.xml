@@ -1,0 +1,1058 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="chronologie avhr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt-Chronologie - 1855</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI xml:id="H0002934" oldID="gnd118554700_12baee6c-a5bc-45e2-af65-30baad7ded5a">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-01-08">8. Januar 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. erwähnt einen kürzlich erfolgten Besuch <persName key="H0013205">Georg von
+                        Cottas</persName> in <placeName key="H0005221">Berlin</placeName>. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002935" oldID="gnd118554700_779b92a9-85dd-498a-aae0-5e081031581f">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-01-10">10. Januar 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. besucht <persName key="H0000735">Leopold von Ranke</persName>, um ihm von
+                    seiner Wahl als Ritter des Ordens Pour le mérite (Friedensklasse) Kenntnis zu
+                    geben. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002936" oldID="gnd118554700_8b0e6453-7175-4709-ba6b-288282056432">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-01-18">18. Januar 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. nimmt an einem „kleinen“ Kapitel des Schwarzen Adler-Ordens im Schloss zu <placeName key="H0007341">Charlottenburg</placeName> teil.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002937" oldID="gnd118554700_6b1ba0d8-168b-4017-a4de-f49241e0c460">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-02-01">1. Februar 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. nimmt an einem Hoffest teil.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002938" oldID="gnd118554700_9301c6d5-85cd-4d5c-af63-cfeb76c989ee">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-02-06">6. Februar 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+<persName key="H0014280">Balduin Möllhausen</persName> und Caroline Seifert (1830–1924), Tochter von H.s Diener, heiraten. Die Feier findet in der Oranienburger Straße 67 statt.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002939" oldID="gnd118554700_e2cf68d1-70d4-47af-a5b7-81caa8546d7e">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-02-17">17. Februar 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. erfährt auf einem Essen zu Ehren des 50-jährigen Dienstjubiläums 
+                    <persName key="H0000150">Eduard Heinrich von Flottwell</persName>s, dass ihm der
+                        <persName key="H0002178">König</persName> einen größeren Betrag zur
+                    Verfügung stellt: Der bis 1848 für H.s Aufenthalte in Paris gewährte jährliche Zuschuss 
+                    von 2000 Talern sollte künftig auch ohne diese Reisen gewährt werden. 
+                    Vgl. dazu den Brief H.s an Friedrich Wilhelm IV vom 18. Februar 1855 in: 
+                    <bibl sameAs="zotero-667230-RIEI5QKW">Humboldt 2013</bibl>, 480f. sowie den
+                    einleitenden „Exkurs Finanzen“ ebd., 81–84. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002940" oldID="gnd118554700_c6103600-efd5-475c-8c93-7c22c3e27e24">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-03">März 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. sitzt <persName key="H0013286">Emma Gaggiotti-Richards</persName>, die
+                    mehrere Porträts von ihm gemalt hat, zu einem Bild. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002941" oldID="gnd118554700_cb41e93f-b0ef-4a8f-8bb7-97885c3d672b">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-03-01">1. März 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. bittet Sir <persName key="H0004701">Charles Lyell</persName> (1797–1875), ihn noch am selben Tag zu empfangen und ihn Lady Lyell vorzustellen.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002942" oldID="gnd118554700_804af1c4-ff73-4dc9-9cef-bb61e90e8893">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-04-12">12. April 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+                    H. hält <persName key="H0002178">Friedrich Wilhelm IV.</persName> einen Vortrag über das Germanische National-Museum in <placeName key="H0001742">Nürnberg</placeName> und beantragt eine jährliche Zuwendung von 400 bis 500 Taler.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002943" oldID="gnd118554700_bea73cad-5f54-449c-bd34-c024cab5fdf4">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-05-02">2. Mai 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. berichtet <persName key="H0013205">J. G. von Cotta</persName>, dass er eine
+                    Abhandlung über Meeresströmungen, die nur zu einem Achtel schon veröffentlicht
+                    sei, fertiggestellt habe. (Die Abhandlung war für Bd. 2 der „Kleineren
+                    Schriften“ bestimmt.) </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002944" oldID="gnd118554700_6cb81bd5-1e04-4b22-87ca-89e86e2c7f7b">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-06-03">3. Juni 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. aus <placeName key="H0008392">Potsdam</placeName> zurück.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002945" oldID="gnd118554700_9cf5db7d-039a-4699-af34-2b6f1bf36b4e">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-06-10">10. Juni 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. beabsichtigt, ein Essen in seiner Wohnung zu geben; eingeladen sind:
+                        <persName key="H0003768">Gabriele von Bülow</persName>, <persName key="H0013286">Emma Gaggiotti-Richards</persName> mit Mutter, <persName key="H0012344">Graf von Dönhoff</persName>, <persName key="H0004594">Loën</persName>, <persName key="H0011896">Hildebrandt</persName> und
+                        <persName key="H0000746">Rauch</persName>. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002946" oldID="gnd118554700_934de8d8-6009-453d-a4df-d708950a9b4a">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-06-14">14. Juni 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> Der mexikanische Gelehrte José Fernando Ramírez (1804–1870) besucht H. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002947" oldID="gnd118554700_3162ea7e-15a9-4185-a433-33bb348be457">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-07-08">8. Juli 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. beabsichtigte, am 6.7. aus <placeName key="H0008392">Potsdam</placeName>
+                    zurückgekehrt, diesen Tag mit <persName key="H0000746">Rauch</persName> nach
+                        <placeName key="H0009286">Tegel</placeName> zum Essen zu fahren. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002948" oldID="gnd118554700_f5aa5c46-e0fc-460b-a313-7571b23fa68c">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-07-18">18. Juli 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. mit der Malerin <persName key="H0013286">Emma Gaggiotti-Richards</persName>
+                    bei strömendem Regen in <placeName key="H0009286">Tegel</placeName>. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002949" oldID="gnd118554700_f7f26d6c-e954-4760-bb79-9f270d2ce5a8">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-07-26">26. Juli 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. liest in der <orgName key="H0000569">Berliner Akademie</orgName> über „einige
+                    Erscheinungen in der Intensität des Tierkreislichtes“ nach seinem Reisejournal
+                    von 1803. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002950" oldID="gnd118554700_c71c2a67-158e-4f5a-afe2-346e3b87a510">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-07-29">29. Juli 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> Die Fürstin Wittgenstein besucht <placeName key="H0009286">Tegel</placeName>. H.
+                    will gleichfalls dorthin fahren und lädt <persName key="H0000746">Rauch</persName> ein. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002951" oldID="gnd118554700_defbea11-81e9-450c-bde8-21e99ab877db">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-08-08">8. August 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. hat eine etwa einstündige Unterredung unter vier Augen mit dem Prinzen von Preußen; Gegenstand ist der Krimkrieg.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002952" oldID="gnd118554700_78a8f44f-c1ab-4449-86ba-12f191adcc58">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-08-30">30. August 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. besucht die „Sammet- und Seidenwaren Fabrik“ von Johann Adolf Heese
+                    (1783–1862) an der Ecke Schloss- und Grunewaldstraße in Steglitz (bei <placeName key="H0005221">Berlin</placeName>). In seiner Begleitung sind die Gräfin
+                        <persName key="H0012345">Dönhoff</persName>, die Frau des Generals<persName key="H0006482"> Friedrich von Wrangel</persName>, der Baron <persName key="H0006481">Ferdinand von Wrangel</persName> mit Frau und die Baronin
+                    Sanden. Nach halbstündigem Aufenthalt fährt H. mit der Gräfin Amélie von Dönhoff
+                    (Hofdame der Königin) nach <placeName key="H0008392">Potsdam</placeName> weiter;
+                    bis Zehlendorf wird er von den übrigen Persönlichkeiten begleitet. (Vgl.
+                    „Spenersche Zeitung“ Nr. 209 (5.9.1855), S. [7].) </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002953" oldID="gnd118554700_350a15ab-0d89-46ec-82ee-43530a27cf38">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-09-05">5. September 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> Die Zeitungen veröffentlichen den Brief H.s an <persName key="H0004936">Nees von
+                        Esenbeck</persName> (vom 18.8.1855), mit dem dieser sich für die Erneuerung
+                    seines Mitglieds-Diploms der Leopoldina bedankt. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002954" oldID="gnd118554700_2ce9d9dc-c5fa-45dc-9502-532b4f38fb1b">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-09-14">14. September 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. fährt an seinem Geburtstag von <placeName key="H0008392">Potsdam</placeName>
+                    nach <placeName key="H0005221">Berlin</placeName> und besucht <persName key="H0014098">Alexander Mendelssohn</persName>; außer ihm ist noch
+                        <persName key="H0011896">Eduard Hildebrandt</persName> anwesend, <persName key="H0000746">Rauch</persName> ist erkrankt. H. besucht am selben Tag noch
+                    das Atelier von <persName key="H0013286">Emma Gaggiotti-Richards</persName>. Um
+                    20 Uhr nach <placeName key="H0008392">Potsdam</placeName> zurückkehrend,
+                    verbringt H. den Abend bei <persName key="H0000150">Flottwell</persName>s. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002955" oldID="gnd118554700_7e78a9b0-6dc8-481c-9156-6ec11f82ea80">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-09-27">27. September 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. wählt zusammen mit 60 Postillionen, die zu dem seiner Wohnung gegenüber befindlichen Posthof gehören. Er nimmt an einer drei Stunden dauernden Versammlung der „Urwähler“ zur Zweiten Kammer seines Wahlbezirkes teil.
+</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002956" oldID="gnd118554700_8943e1d8-0177-4f04-af2c-30f1bac5be71">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-10-14">14. Oktober 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. empfängt den Afrikareisenden <persName key="H0003108">Heinrich
+                        Barth</persName> zu einer längeren Unterredung. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002957" oldID="gnd118554700_ec3194ed-c246-4fda-a98b-7d618e104b1b">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-11-07">7. November 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> Der Philologiestudent <persName key="H0000121">Junius M. Fishburn</persName>
+                    (1830–1858) aus <placeName key="H0009177">Virginia</placeName> besucht H. um 13
+                    Uhr im Schloss in <placeName key="H0008392">Potsdam</placeName>. Er bleibt über
+                    eine halbe Stunde bei ihm. H. nimmt an einem Diner für die verwitwete <persName key="H0004985">Königin Anna der Niederlande</persName> teil. Er nennt den
+                    Kabinettsrat <persName key="H0004983">Markus von Niebuhr</persName> „schielende
+                    Wanze“. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002958" oldID="gnd118554700_d7d0f456-0337-49c4-a781-6f931833e570">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-11-17">17. November 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. trifft in Begleitung der Königin <persName key="H0002149">Elisabeth von
+                        Preußen</persName> nach längerem Aufenthalt in <placeName key="H0008392">Potsdam</placeName> wieder in <placeName key="H0005221">Berlin</placeName>
+                    ein (Brief H. an Alexander Mendelssohn, Berlin, 17.11.2017, <bibl sameAs="zotero-667230-69XS9XZT">Humboldt 2011</bibl>) . </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002959" oldID="gnd118554700_c8eb9d9b-ee83-4b27-bf83-bf91966d2220">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-12-06">6. Dezember 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p> H. gibt anläßlich des Berlinbesuchs des französischen Ägyptologen <persName key="H0013936">Auguste Mariette</persName> (1821–1881) ein Essen, zu dem
+                    ebenfalls eingeladen werden: der Ägyptologe <persName key="H0003705">Heinrich
+                        Brugsch</persName>, der Komponist <persName key="H0004563">Franz
+                        Liszt</persName>, der Landschafrtsmaler <persName key="H0011896">Eduard
+                        Hildebrandt</persName>, der Biologe <persName key="H0005875">Christian
+                        Gottfried Ehrenberg</persName>, der Bildhauer <persName key="H0000746">Christian Daniel Rauch</persName> und der Bankier <persName key="H0014098">Alexander Mendelssohn</persName>. </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="H0002960" oldID="gnd118554700_4116ef4a-3e57-4470-a2e4-5789de7075ed">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <date when="1855-12-31">31. Dezember 1855</date>
+                    </title>
+                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                    <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <listBibl>
+                        <bibl>Alexander von Humboldt-Forschungsstelle, BBAW</bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc><!--textClass>
+                    <keywords scheme="https://avhr.bbaw.de">
+                        <term>Berlin</term>
+                    </keywords>
+                </textClass--></profileDesc>
+            <revisionDesc>
+                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
+            </revisionDesc>
+        </teiHeader>
+        <text type="event">
+            <body>
+                <p>
+H. verfasst eine Besprechung der deutschen Übersetzung der Werkausgabe seines verstorbenen Freundes <persName key="H0012670">François Arago</persName>.
+</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
