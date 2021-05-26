@@ -29,7 +29,7 @@ public class BBAWEntity implements Comparable<BBAWEntity>{
 		String bbaw_name = extractTitleString("http://edition-humboldt.de/register/personen/detail.xql?id="+ bbaw_id);
 		if(bbaw_name!=null) {
 			this.name = bbaw_name;
-			//System.out.println("Person found: " + this.name);
+			System.out.println("Person found: " + this.name + " " + bbaw_id);
 		}
 		
 	}
@@ -61,8 +61,12 @@ public class BBAWEntity implements Comparable<BBAWEntity>{
 		 
 			//Get title from document object.
 			String title = document.select("H1").text();
+			title = title.replace("edition humboldt digital ", "");
+			if(title.trim()=="") {
+				return null;
+			}
+			return title;
 			
-			return title.replace("edition humboldt digital ", "");
 	    } catch (IOException e) {
 	    	e.printStackTrace();
 	    	return null;
