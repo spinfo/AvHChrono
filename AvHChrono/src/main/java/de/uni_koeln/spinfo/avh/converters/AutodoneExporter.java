@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -19,11 +20,11 @@ import de.uni_koeln.spinfo.avh.data.Person;
 //import de.unihd.dbs.heideltime.standalone.exceptions.DocumentCreationTimeMissingException;
 
 /**
- * Class to export DiaryEntries to a autoChirp import File.
+ * Class to export DiaryEntries to a autodone import File.
  * @author jhermes
- * @deprecated
+ *
  */
-public class AutoChirpExporter {
+public class AutodoneExporter {
 	
 	private File outputDir;
 	
@@ -32,7 +33,7 @@ public class AutoChirpExporter {
 	 * Creates a new AutoChirpExporter on specified output directory
 	 * @param outputDirectoryPath
 	 */
-	public AutoChirpExporter(String outputDirectoryPath){
+	public AutodoneExporter(String outputDirectoryPath){
 		outputDir = new File(outputDirectoryPath);
 		if(!outputDir.exists()){
 			outputDir.mkdirs();
@@ -47,10 +48,11 @@ public class AutoChirpExporter {
 	 * @throws IOException 
 	 */
 	public void generateAutoChirpExport(List<DiaryEntry> entries, String filename) throws IOException {
-		//HeidelTimeWrapper ht = initializeHeideltime();
+		
 		StringBuffer buff = new StringBuffer();
 		for (DiaryEntry diaryEntry : entries) {
 			String date = diaryEntry.getDate();
+			
 			String[] split = date.split("-");
 			if(split.length<3){
 				date += ("-01");
@@ -59,33 +61,49 @@ public class AutoChirpExporter {
 			if(split.length<3){
 				date += ("-01");
 			}
+			if(date.length()<=6) {
+				System.out.println("No valid date: " + diaryEntry);
+				continue;
+			}
 			int year = Integer.parseInt(date.substring(0, 4));
+			
 			String text = diaryEntry.getText();
+			//String decodedString = java.net.URLDecoder.decode("H. reist an diesem oder am n\\u00E4chsten Tage von Wien \\u00FCber Li", "UTF-8");
+
+
 			String time = null; //getTimeFromString(ht, text);
 			if(time==null) time = generateTime(year);
 			buff.append(date);
 			buff.append("\t");
 			buff.append(time);
 			buff.append("\t");
-			buff.append("["+ year + "] #ehd_v8 ");
-			String fulltext = text + "\n\nhttp://edition-humboldt.de/" + diaryEntry.getId();
+			buff.append("["+ year + "] #ehd_v10 ");
+			String fulltext = text + " – http://edition-humboldt.de/" + diaryEntry.getId();
 			fulltext = StringEscapeUtils.escapeJava(fulltext);
-			buff.append(fulltext);
+			
+			buff.append(decodeUnicodeEscapes(fulltext));
+			
 			//set link to picture, if existent
 			String person = null;
 			if(!diaryEntry.getPersons().isEmpty()){
 				List<Person> persList = new ArrayList(diaryEntry.getPersons());
-				for (Person pers : persList) {
-					System.out.println(pers.getBbaw_id());
-				}
-				Random random = new Random();
-				System.out.println(persList.size() +" " +  persList);
-				Person personObj = persList.get(random.nextInt(persList.size()));
 				
-				fulltext = "\n\nBild: " + personObj.getName() + " \nBildquelle: Wikimedia Commons";
-				fulltext = StringEscapeUtils.escapeJava(fulltext);
-				buff.append(fulltext);
-				buff.append("\t" + personObj.getPictureUrl());
+				Random random = new Random();
+				Person personObj = persList.get(random.nextInt(persList.size()));
+				for(int i = 0; i< persList.size()*2; i++) {
+					if(personObj.getPictureUrl()!=null) {
+						break;
+					}
+					personObj = persList.get(random.nextInt(persList.size()));
+					System.out.println("**************************************" + persList.size());
+				}
+				if(personObj.getPictureUrl()!= null) {
+					buff.append("\t" + personObj.getPictureUrl());
+					String description = "Bild: " + personObj.getDescription() + " – Bildquelle: Wikimedia Commons";
+					description = StringEscapeUtils.escapeJava(description);
+					buff.append(decodeUnicodeEscapes("\t" + description));
+					
+				}
 			}
 				
 			buff.append("\n");
@@ -139,7 +157,6 @@ public class AutoChirpExporter {
 		Matcher matcher = pattern.matcher(string);
 		if (matcher.find()) {
 			// times.put(matcher.group(1), string);
-			System.out.println(matcher.group(1));
 			return matcher.group(1);
 		}
 
@@ -149,7 +166,6 @@ public class AutoChirpExporter {
 
 		if (matcher.find()) {
 			// times.put(matcher.group(1),string);
-			System.out.println(matcher.group(1));
 			return matcher.group(1);
 		}
 
@@ -173,9 +189,20 @@ public class AutoChirpExporter {
 			time = hour + ":" + minute;
 
 		}
-		System.out.println("TIME: " + time);
 		return time;
 	}
-	
 
+
+	private String decodeUnicodeEscapes(String input) {
+        Pattern pattern = Pattern.compile("\\\\u([0-9A-Fa-f]{4})");
+        Matcher matcher = pattern.matcher(input);
+        StringBuffer decodedString = new StringBuffer(input.length());
+
+        while (matcher.find()) {
+            String unicodeChar = String.valueOf((char) Integer.parseInt(matcher.group(1), 16));
+            matcher.appendReplacement(decodedString, unicodeChar);
+        }
+        matcher.appendTail(decodedString);
+        return decodedString.toString();
+    }
 }

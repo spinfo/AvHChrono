@@ -143,7 +143,7 @@ public class DiaryEntry {
 	 * @see java.lang.Object#toString()
 	 */
 	public String toString(){
-		return id + "\t" + date+ "\t" + text + "\t" + locations + "\t" +  persons + "\t" + unspecified;
+		return id + "\t" + date+ "\t" + text + "\t" + persons + "\t" +  locations + "\t" + unspecified;
 	}
 
 }

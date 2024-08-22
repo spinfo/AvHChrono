@@ -16,6 +16,7 @@ import edu.stanford.nlp.ling.CoreLabel;
 /**
  * Class to search Named Entities in texts of DiaryEntries and save them to the specified NE-sets.
  * @author jhermes
+ * @deprecated
  *
  */
 public class NamedEntityAggregator {
@@ -79,7 +80,7 @@ public class NamedEntityAggregator {
 		List<String> perList = extractedEntities.get("I-PER");
 		if(perList!=null){
 			for (String per : perList) {
-				entry.addPerson(new Person(per,per));
+				entry.addPerson(new Person(per,per,null));
 			}
 		}
 		List<String> miscList = extractedEntities.get("I-MISC");
