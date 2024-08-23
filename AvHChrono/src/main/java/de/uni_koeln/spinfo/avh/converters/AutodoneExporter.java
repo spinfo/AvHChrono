@@ -70,6 +70,13 @@ public class AutodoneExporter {
 			String text = diaryEntry.getText();
 			//String decodedString = java.net.URLDecoder.decode("H. reist an diesem oder am n\\u00E4chsten Tage von Wien \\u00FCber Li", "UTF-8");
 
+			if(text.length()>430) {
+				System.out.println(text);
+				System.out.println(text.length());
+				text = text.substring(0,430) + " [...]"; 
+				System.out.println(text);
+				System.out.println(text.length());
+			}
 
 			String time = null; //getTimeFromString(ht, text);
 			if(time==null) time = generateTime(year);
@@ -79,8 +86,9 @@ public class AutodoneExporter {
 			buff.append("\t");
 			buff.append("["+ year + "] #ehd_v10 ");
 			String fulltext = text + " – http://edition-humboldt.de/" + diaryEntry.getId();
-			fulltext = StringEscapeUtils.escapeJava(fulltext);
-			
+			//fulltext = StringEscapeUtils.escapeJava(fulltext);
+			System.out.println(fulltext);
+			System.out.println(fulltext.length());
 			buff.append(decodeUnicodeEscapes(fulltext));
 			
 			//set link to picture, if existent
@@ -95,7 +103,6 @@ public class AutodoneExporter {
 						break;
 					}
 					personObj = persList.get(random.nextInt(persList.size()));
-					System.out.println("**************************************" + persList.size());
 				}
 				if(personObj.getPictureUrl()!= null) {
 					buff.append("\t" + personObj.getPictureUrl());
